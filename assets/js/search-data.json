@@ -13,10 +13,10 @@
   
     
         ,"post1": {
-            "title": "Title",
+            "title": "My not so first notebook",
             "content": "print(&quot;Hello from Sanika&quot;) . Hello from Sanika .",
-            "url": "https://sanikasha.github.io/superFastPages/2020/08/21/Hello.html",
-            "relUrl": "/2020/08/21/Hello.html",
+            "url": "https://sanikasha.github.io/superFastPages/jupyter/2020/08/21/Hello.html",
+            "relUrl": "/jupyter/2020/08/21/Hello.html",
             "date": " • Aug 21, 2020"
         }
         
