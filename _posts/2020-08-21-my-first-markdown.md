@@ -6,8 +6,8 @@ categories: [markdown]
 title: My first markdown and more
 ---
 
-A link to my Github Insights: https://github.com/sanikasha/superFastPages/pulse
+The link to my Github Insights: https://github.com/sanikasha/superFastPages/pulse
 
-My Fsstpages VS Code Project:
+My Fastpages VS Code Project:
 
 ![]({{ site.baseurl }}/images/VScode_Screen.png "VSCode Screen Cap")
