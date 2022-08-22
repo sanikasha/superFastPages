@@ -10,4 +10,4 @@ A link to my Github Insights: https://github.com/sanikasha/superFastPages/pulse
 
 My Fsstpages VS Code Project:
 
-![]({{ site.baseurl }}/images/VSCode_Screen.png "VSCode Screen Cap")
+![]({{ site.baseurl }}/images/VScode_Screen.png "VSCode Screen Cap")
