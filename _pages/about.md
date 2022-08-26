@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+My name is Sanika Shahapurkar, and I am currently a senior in high school! I love playing my guitar, going to concerts, and taking pictures on my film camera. I am several clubs at school including the DNHS Anti-racism and Equity Taskforce, Peer Counseling, and Theatre Society. 
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+![]({{ site.baseurl }}/images/aboutmepic.png)
