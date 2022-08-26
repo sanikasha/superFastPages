@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /blog
-title: Blog
+permalink: /schedule
+title: Schedule
 ---
 
-## Trimester 1
-> Below are all my blog posts from Trimester 1
+## Trimester 1 - Introduction to Tools and Resources
+> The initial weeks focus on introducing Tools, Pair Programming, and the AP Resources that we plan to use throughout the year. At the end of Weeks 0-3, students will be exposed to blogging with GitHub Pages; developing with Jupyter Notebooks, Python, JavaScript, HTML, and Code.org AppLab; working with AP classroom and becoming familiar with Create Performance Task project requirements.
 
 <table>
     <tr>
