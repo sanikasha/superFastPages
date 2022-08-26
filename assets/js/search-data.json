@@ -39,17 +39,6 @@
 
   
       ,"page1": {
-          "title": "My Photography",
-          "content": "Here are some of my favorite film pictures I have taken! . .",
-          "url": "https://sanikasha.github.io/superFastPages/my_photography/",
-          "relUrl": "/my_photography/",
-          "date": ""
-      }
-      
-  
-
-  
-      ,"page2": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://sanikasha.github.io/superFastPages/about/",
@@ -59,6 +48,17 @@
       
   
 
+  
+
+  
+      ,"page3": {
+          "title": "My Photography",
+          "content": "Here are some of my favorite film pictures I have taken! . .",
+          "url": "https://sanikasha.github.io/superFastPages/photography/",
+          "relUrl": "/photography/",
+          "date": ""
+      }
+      
   
 
   
