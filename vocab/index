@@ -4,20 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tri 1 | Sanika’s Blog</title>
+<title>Vocab | Sanika’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Tri 1" />
+<meta property="og:title" content="Vocab" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Sanika’s fastpage for APCSP and other high school organization!" />
 <meta property="og:description" content="Sanika’s fastpage for APCSP and other high school organization!" />
-<link rel="canonical" href="https://sanikasha.github.io/superFastPages/schedule" />
-<meta property="og:url" content="https://sanikasha.github.io/superFastPages/schedule" />
+<link rel="canonical" href="https://sanikasha.github.io/superFastPages/vocab/" />
+<meta property="og:url" content="https://sanikasha.github.io/superFastPages/vocab/" />
 <meta property="og:site_name" content="Sanika’s Blog" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tri 1" />
+<meta property="twitter:title" content="Vocab" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Sanika’s fastpage for APCSP and other high school organization!","headline":"Tri 1","url":"https://sanikasha.github.io/superFastPages/schedule"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Sanika’s fastpage for APCSP and other high school organization!","headline":"Vocab","url":"https://sanikasha.github.io/superFastPages/vocab/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/superFastPages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sanikasha.github.io/superFastPages/feed.xml" title="Sanika's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/superFastPages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -72,137 +72,15 @@ window.onload = wrap_img;
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Tri 1</h1>
+    <h1 class="post-title">Vocab</h1>
   </header>
 
   <div class="post-content">
-    <h2 id="trimester-1">Trimester 1</h2>
-<blockquote>
-  <p>An efficient link to all Trimester 1 blogs and CSP learnings.</p>
-</blockquote>
-
-<table>
-    <tr>
-     <th>Week</th>
-     <th>Sprint</th>
-     <th>AP Test Prep</th>
-     <th>Career Tech</th>
-     <th>Canvas</th>
-    </tr>
-    
-    <tr>
-        <td>3</td>
-        <td><a href="/superFastPages/week/3">Creative Development</a></td>
-        <td>
-            <a href="/superFastPages/collegeboard/create">Create Performance Task</a>,
-            <a href="/superFastPages/collegeboard/bria">How I got a  5!</a>
-        </td>
-        <td>
-            <a href="/superFastPages/techtalk/javascript">JavaScript Tutorial</a>,
-            <a href="/superFastPages/techtalk/applab">Program Design with AppLab</a>
-        </td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>2</td>
-        <td><a href="/superFastPages/week/2">Data Abstraction</a></td>
-        <td><a href="/superFastPages/collegeboard/python_lists">Python Lists and Dictionaries</a></td>
-        <td>
-            <a href="/superFastPages/techtalk/agile">Agile and Roles</a>,
-            <a href="/superFastPages/techtalk/html">HTML Fragments and Layouts</a>
-        </td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>1</td>
-        <td><a href="/superFastPages/week/1">Introduction to Python</a></td>
-        <td>
-            <a href="/superFastPages/collegeboard/python">Hello to Python</a>,
-            <a href="/superFastPages/collegeboard/anthony-and-sahil">Reflections on Computer Science</a>
-        </td>
-        <td>
-            <a href="/superFastPages/techtalk/bash">Bash and Checks</a>,
-            <a href="/superFastPages/techtalk/fastpages">Fastpages, Jupyter Notebooks, Markdown</a>,
-            <a href="/superFastPages/techtalk/focus">Focus and Habits</a>     
-        </td>
-        <td><a href="https://poway.instructure.com/courses/127268/assignments/2296689">Intro Python, Jupyter, Fastpages</a></td>
-    </tr>
-    
-    <tr>
-        <td>0</td>
-        <td><a href="/superFastPages/week/0">Tool Setup</a></td>
-        <td>
-            <a href="/superFastPages/collegeboard/history">Scoring History</a>,
-            <a href="/superFastPages/collegeboard/pseudo_code">Pseudo Code</a>
-        </td>
-        <td><a href="/superFastPages/techtalk/tools">Tools and Equipment</a></td>
-        <td><a href="https://poway.instructure.com/courses/127268/assignments/2206627">Tools Setup</a></td>
-    </tr>
-    
-</table>
-
-<!---
-    <tr>
-        <td>10</td>
-        <td><a href="">Algorithms for Images</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.2 Data Compression</a></td>
-        <td><a href="">Image Manipulations (TBD)</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>9</td>
-        <td><a href="">Working with Images</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.3 Extracting Information from Data</a></td>
-        <td><a href="https://csp.nighthawkcodingsociety.com/starter/rgb/">RGB Values and Base64</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>8</td>
-        <td><a href="">Working with Binary</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=2">2.1 Binary Numbers</a></td>
-        <td><a href="/superFastPages/frontend/binary">Binary Calculator ASCII, Base 2, 8, 16 (TBD)</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>7</td>
-        <td><a href="">Test Driven Development</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.4 Identifying and Correct Errors</a></td>
-        <td><a href="/superFastPages/api/overview">Frontend and Backend APIs</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>6</td>
-        <td><a href="">AWS, Docker, Nginx Deployment</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.3 Program Design and Development</a></td>
-        <td>
-            <a href="/superFastPages/techtalk/bash">Bash Introduction</a>,
-            <a href="/superFastPages/techtalk/deploy">Deployment Guide</a>
-        </td>
-        <td><a href="https://poway.instructure.com/courses/127268/assignments/2206627">Tools Setup</a></td>
-    </tr>
-
-    <tr>
-        <td>5</td>
-        <td><a href="">Flask/Python Backend Development</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.2 Program Function and Purpose</a></td>
-        <td><a href="/superFastPages/techtalk/webapi">Python API Endpoints using Jokes</a></td>
-        <td>TBD</td>
-    </tr>
-
-    <tr>
-        <td>4</td>
-        <td><a href="">HTML/JavaScript Frontend Development</a></td>
-        <td><a href="https://apclassroom.collegeboard.org/103/home?unit=1">1.1 Collaboration</a></td>
-        <td><a href="/superFastPages/frontend/overview.html">Frontend with Fastpages</a></td>
-        <td>TBD</td>
-    </tr>
--->
+    | Word     | Pseudocode | Python | Def/Purpose |
+| ----------- | ----------- | ----------- | ----------- |
+| Output     | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ |
+| Input   | a ← INPUT() | 	a = input(prompt) | Accepts a value from the user and returns it to the variable a. |
+| Assignment | a ← expression | 	a = expression | Evaluates expression and assigns the result to the variable a. |
 
   </div>
 
