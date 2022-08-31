@@ -91,20 +91,9 @@
 
   
   
-      ,"page0": {
-          "title": "Tri 1",
-          "content": "Trimester 1 . An efficient link to all Trimester 1 blogs and CSP learnings. . Week Sprint AP Test Prep Career Tech Canvas . 3 | Creative Development | Create Performance Task, How I got a 5! | JavaScript Tutorial, Program Design with AppLab | TBD | . 2 | Data Abstraction | Python Lists and Dictionaries | Agile and Roles, HTML Fragments and Layouts | TBD | . 1 | Introduction to Python | Hello to Python, Reflections on Computer Science | Bash and Checks, Fastpages, Jupyter Notebooks, Markdown, Focus and Habits | Intro Python, Jupyter, Fastpages | . 0 | Tool Setup | Scoring History, Pseudo Code | Tools and Equipment | Tools Setup | .",
-          "url": "https://sanikasha.github.io/superFastPages/schedule",
-          "relUrl": "/schedule",
-          "date": ""
-      }
-      
-  
 
   
-
-  
-      ,"page2": {
+      ,"page1": {
           "title": "Vocab",
           "content": "Word Pseudocode Python Def/Purpose . Output | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ | . Input | a ← INPUT() | a = input(prompt) | Accepts a value from the user and returns it to the variable a. | . Assignment | a ← expression | a = expression | Evaluates expression and assigns the result to the variable a. | .",
           "url": "https://sanikasha.github.io/superFastPages/vocab/",
@@ -115,7 +104,7 @@
   
 
   
-      ,"page3": {
+      ,"page2": {
           "title": "About Me",
           "content": "My name is Sanika Shahapurkar, and I am currently a senior in high school! I love playing my guitar, going to concerts, and taking pictures on my film camera. I am in several clubs including the DNHS Anti-racism and Equity Taskforce, Peer Counseling, and Theatre Society. . .",
           "url": "https://sanikasha.github.io/superFastPages/about/",
@@ -128,7 +117,7 @@
   
 
   
-      ,"page5": {
+      ,"page4": {
           "title": "My Photography",
           "content": "Here are some of my favorite film pictures I have taken! . .",
           "url": "https://sanikasha.github.io/superFastPages/photography/",
@@ -158,7 +147,7 @@
   
 
   
-      ,"page13": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://sanikasha.github.io/superFastPages/robots.txt",
