@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": ". toc: true layout: post description: Attempting to change fastpage theme to Midnight, though pages/images/tags do not tranfer properly. categories: [Week 3] . title: Changing Theme to Midnight . ![]({{ site.baseurl }}/images/themechange1.png) ![]({{ site.baseurl }}/images/themechange2.png) ![]({{ site.baseurl }}/images/themechange3.png) .",
-            "url": "https://sanikasha.github.io/superFastPages/2022/08/30/Theme-Change.html",
-            "relUrl": "/2022/08/30/Theme-Change.html",
+            "title": "Temporarily Changing Theme of Fastpage",
+            "content": "Temporarily Changing Theme of Fastpage . . . .",
+            "url": "https://sanikasha.github.io/superFastPages/week%203/2022/08/30/Theme.html",
+            "relUrl": "/week%203/2022/08/30/Theme.html",
             "date": " • Aug 30, 2022"
         }
         
