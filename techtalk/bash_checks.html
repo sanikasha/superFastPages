@@ -88,7 +88,7 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/superFastPages/categories/#techtalk">techtalk</a>
+        <a class="category-tags-link" href="/superFastPages/categories/#Week 1">Week 1</a>
         
       
       </p>
@@ -157,8 +157,8 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>python --version
-python2 --version
+<div class=" highlight hl-python"><pre><span></span><span class="n">python</span> <span class="o">--</span><span class="n">version</span>
+<span class="n">python2</span> <span class="o">--</span><span class="n">version</span>
 </pre></div>
 
     </div>
@@ -199,7 +199,7 @@ Python 2.7.18
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>conda list
+<div class=" highlight hl-python"><pre><span></span><span class="n">conda</span> <span class="nb">list</span>
 </pre></div>
 
     </div>
@@ -661,18 +661,18 @@ zstd                      1.4.9                h322a384_0
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> Conda Check
+<div class=" highlight hl-python"><pre><span></span><span class="n">echo</span> <span class="n">Conda</span> <span class="n">Check</span>
 <span class="c1"># test for a kernel installation</span>
-<span class="nv">test</span><span class="o">=</span><span class="s2">"jupyter"</span> <span class="c1"># keyword</span>
-<span class="nv">check</span><span class="o">=</span><span class="sb">`</span>conda list <span class="p">|</span> grep <span class="nv">$test</span><span class="sb">`</span> <span class="c1"># run command</span>
-<span class="nv">n</span><span class="o">=</span><span class="si">${#</span><span class="nv">check</span><span class="si">}</span> <span class="c1"># determine length</span>
+<span class="n">test</span><span class="o">=</span><span class="s2">"jupyter"</span> <span class="c1"># keyword</span>
+<span class="n">check</span><span class="o">=</span><span class="err">`</span><span class="n">conda</span> <span class="nb">list</span> <span class="o">|</span> <span class="n">grep</span> <span class="err">$</span><span class="n">test</span><span class="err">`</span> <span class="c1"># run command</span>
+<span class="n">n</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="c1">#check} # determine length</span>
 
-<span class="k">if</span> <span class="o">[[</span> <span class="si">${</span><span class="nv">n</span><span class="si">}</span> &gt; <span class="m">0</span> <span class="o">]]</span><span class="p">;</span>  <span class="c1"># testt length</span>
-<span class="k">then</span> <span class="c1"># greater than zero</span>
-    <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$check</span><span class="s2">"</span>
+<span class="k">if</span> <span class="p">[[</span> <span class="err">$</span><span class="p">{</span><span class="n">n</span><span class="p">}</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">]];</span>  <span class="c1"># testt length</span>
+<span class="n">then</span> <span class="c1"># greater than zero</span>
+    <span class="n">echo</span> <span class="s2">"$check"</span>
 <span class="k">else</span> <span class="c1"># less than zero</span>
-    <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$test</span><span class="s2"> not found"</span>
-<span class="k">fi</span>
+    <span class="n">echo</span> <span class="s2">"$test not found"</span>
+<span class="n">fi</span>
 </pre></div>
 
     </div>
@@ -722,8 +722,8 @@ neo4jupyter               0.2.0                    pypi_0    pypi
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>jupyter --version
-jupyter kernelspec list
+<div class=" highlight hl-python"><pre><span></span><span class="n">jupyter</span> <span class="o">--</span><span class="n">version</span>
+<span class="n">jupyter</span> <span class="n">kernelspec</span> <span class="nb">list</span>
 </pre></div>
 
     </div>
@@ -772,16 +772,16 @@ Available kernels:
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nv">test</span><span class="o">=</span><span class="s2">"python3"</span> <span class="c1"># keyword</span>
-<span class="nv">check</span><span class="o">=</span><span class="sb">`</span>jupyter kernelspec list <span class="p">|</span> grep <span class="nv">$test</span><span class="sb">`</span> <span class="c1"># run command</span>
-<span class="nv">n</span><span class="o">=</span><span class="si">${#</span><span class="nv">check</span><span class="si">}</span> <span class="c1"># determine length</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">test</span><span class="o">=</span><span class="s2">"python3"</span> <span class="c1"># keyword</span>
+<span class="n">check</span><span class="o">=</span><span class="err">`</span><span class="n">jupyter</span> <span class="n">kernelspec</span> <span class="nb">list</span> <span class="o">|</span> <span class="n">grep</span> <span class="err">$</span><span class="n">test</span><span class="err">`</span> <span class="c1"># run command</span>
+<span class="n">n</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="c1">#check} # determine length</span>
 
-<span class="k">if</span> <span class="o">[[</span> <span class="si">${</span><span class="nv">n</span><span class="si">}</span> &gt; <span class="m">0</span> <span class="o">]]</span><span class="p">;</span>  <span class="c1"># testt length</span>
-<span class="k">then</span> <span class="c1"># greater than zero</span>
-    <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$check</span><span class="s2">"</span>
+<span class="k">if</span> <span class="p">[[</span> <span class="err">$</span><span class="p">{</span><span class="n">n</span><span class="p">}</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">]];</span>  <span class="c1"># testt length</span>
+<span class="n">then</span> <span class="c1"># greater than zero</span>
+    <span class="n">echo</span> <span class="s2">"$check"</span>
 <span class="k">else</span> <span class="c1"># less than zero</span>
-    <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$test</span><span class="s2"> not found"</span>
-<span class="k">fi</span>
+    <span class="n">echo</span> <span class="s2">"$test not found"</span>
+<span class="n">fi</span>
 </pre></div>
 
     </div>
