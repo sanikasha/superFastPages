@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: My first markdown, Github insights, and VScode screen.
-categories: [Week 1]
+categories: [Week 0]
 title: My first markdown and more
 ---
 
