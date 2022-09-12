@@ -11,6 +11,14 @@ Ideas for Performance Task:
 - Match the song to the artist
 - Finish the lyric
 
+Functions we want to include / What we need to learn:
+- Type-in answer
+- Error message
+- If/else to avoid having to repeat code for correct/incorrect answers
+- Score provided at end
+- Music in the background
+
+
 | Rubric Row | To do | Doing | Done | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 1, Program Purpose and Function | x | x | x |
