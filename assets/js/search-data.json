@@ -204,6 +204,17 @@
 
   
       ,"page1": {
+          "title": "JavaScript",
+          "content": "",
+          "url": "https://sanikasha.github.io/superFastPages/javascript/",
+          "relUrl": "/javascript/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
           "title": "Learning Targets",
           "content": "Week Topics Learnings . 1 | Tools Setup | Create Fastpage, Creat first Jupyter notebook, Screen capture of VS Studio | . 2 | Intro Python, Jupyter, Fastpages | Productive Blogging, Jupyter Notebook using Bash, more | . 3 | Data Abstraction | List/Dictionaries Iteration, HTML/Markdown Fragments | .",
           "url": "https://sanikasha.github.io/superFastPages/learningtargets/",
@@ -214,7 +225,7 @@
   
 
   
-      ,"page2": {
+      ,"page3": {
           "title": "Vocab",
           "content": "Word Pseudocode Python Def/Purpose . Output | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ | . Input | a ← INPUT() | a = input(prompt) | Accepts a value from the user and returns it to the variable a. | . Assignment | a ← expression | a = expression | Evaluates expression and assigns the result to the variable a. | . Lists |   | [] | a way to group data into ordered sequences | . Dictionaries |   | {} | a way of grouping data into in key-value relationships | . HTML Fragments |   |   | HTML fragments are portions of code used in a greater coding system that enable functionality specific to the current page | .",
           "url": "https://sanikasha.github.io/superFastPages/vocab/",
@@ -225,7 +236,7 @@
   
 
   
-      ,"page3": {
+      ,"page4": {
           "title": "About Me",
           "content": "My name is Sanika Shahapurkar, and I am currently a senior in high school! I love playing my guitar, going to concerts, and taking pictures on my film camera. I am in several clubs including the DNHS Anti-racism and Equity Taskforce, Peer Counseling, and Theatre Society. . .",
           "url": "https://sanikasha.github.io/superFastPages/about/",
@@ -238,7 +249,7 @@
   
 
   
-      ,"page5": {
+      ,"page6": {
           "title": "My Photography",
           "content": "Here are some of my favorite film pictures I have taken! . .",
           "url": "https://sanikasha.github.io/superFastPages/photography/",
@@ -270,7 +281,7 @@
   
 
   
-      ,"page14": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://sanikasha.github.io/superFastPages/robots.txt",
