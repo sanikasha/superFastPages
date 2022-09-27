@@ -1,0 +1,29 @@
+---
+title: HTML Play
+permalink: /htmlplay/
+---
+
+<h2>Scrum Group (example HTML list)</h2>
+
+<ul>
+  <li>Sanika</li>
+  <li>Jiya</li>
+  <li>Noor</li>
+  <li>Shreya</li>
+</ul>  
+
+<h2>Image in HTML</h2>
+
+<img src="SSjn.png" alt="Group Logo">
+
+<h1>HTML JavaScript Date</h1>
+
+<button type="button"
+onclick="document.getElementById('attempt').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="attempt"></p>
+
+<h1>Emoji in HTML</h1>
+
+<p>&#128512;</p>
