@@ -9,5 +9,3 @@ Personal Usage of JavaScript Kernel :
 
 JavaScript Table :
 - [JavaScript Table](https://sanikasha.github.io/superFastPages/week%205/2022/09/21/JS-1.html)
-
-
