@@ -24,8 +24,8 @@
   
     
         ,"post2": {
-            "title": "JavaScript Play",
-            "content": "Math.round(3.14159); . 3 . Math.floor(Math.random() * 500); . 433 . const cars = [&quot;Saab&quot;, &quot;Volvo&quot;, &quot;BMW&quot;]; . evalmachine.&lt;anonymous&gt;:1 const cars = [&#34;Saab&#34;, &#34;Volvo&#34;, &#34;BMW&#34;]; ^ SyntaxError: Identifier &#39;cars&#39; has already been declared at evalmachine.&lt;anonymous&gt;:1:1 at Script.runInThisContext (vm.js:96:20) at Object.runInThisContext (vm.js:303:38) at run ([eval]:1020:15) at onRunRequest ([eval]:864:18) at onMessage ([eval]:828:13) at process.emit (events.js:182:13) at emit (internal/child_process.js:812:12) at process._tickCallback (internal/process/next_tick.js:63:19) .",
+            "title": "JavaScript Playx",
+            "content": "Math.round(3.14159); . 3 . Math.floor(Math.random() * 400); . 261 .",
             "url": "https://sanikasha.github.io/superFastPages/week%205/2022/09/24/JSPlay.html",
             "relUrl": "/week%205/2022/09/24/JSPlay.html",
             "date": " • Sep 24, 2022"
