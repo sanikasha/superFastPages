@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      6 min read
     
 </span></p>
 
@@ -226,6 +226,60 @@ A student wrote the following code segment, which displays true if the list myLi
 A student is creating an application that allows customers to order food for delivery from a local restaurant. Which of the following is LEAST likely to be an input provided by a customer using the application?</p>
 
 <p>The cost of a food item currently available for order</p>
+
+<p>Copy of Identifying and Correcting Errors Quiz 2/3</p>
+
+<p><img src="/superFastPages/images/cbquiz3.png" alt=""></p>
+
+<p>Q1
+In the following code segment, score and penalty are initially positive integers. The code segment is intended to reduce the value of score by penalty. However, if doing so would cause score to be negative, score should be assigned the value 0.</p>
+
+<p>For example, if score is 20 and penalty is 5, the code segment should set score to 15.
+If score is 20 and penalty is 30, score should be set to 0.</p>
+
+<p>The code segment does not work as intended.</p>
+
+<p>Line 1: IF(score - penalty &lt; 0)
+Line 2: {
+Line 3:    score ← score - penalty
+Line 4: }
+Line 5: ELSE
+Line 6: {
+Line 7:    score ← 0
+Line 8: }</p>
+
+<p>Which of the following changes can be made so that the code segment works as intended?</p>
+
+<p>Answer: Interchanging lines 3 and 7</p>
+
+<p>Q2
+The following procedure is intended to return true if the list of numbers myList contains only positive numbers and is intended to return false otherwise. The procedure does not work as intended.</p>
+
+<p>PROCEDURE allPositive(myList)
+{
+index ← 1
+len ← LENGTH(myList)
+REPEAT len TIMES
+{
+IF(myList[index] &gt; 0)
+{
+RETURN(true)
+}
+index ← index + 1
+}
+RETURN(false)
+}</p>
+
+<p>For which of the following contents of myList does the procedure NOT return the intended result?</p>
+
+<p>Answer: 
+[-1, 0, 1]
+The procedure traverses this list and eventually encounters the positive value 1. At this point, the procedure returns true when it should return false because the list does not contain only positive values.</p>
+
+<p>Q3
+For which of the following values of numCorrect does the code segment NOT display the intended grade?</p>
+
+<p>Answer: 6, 8</p>
 
 
   </div><a class="u-url" href="/superFastPages/week%206/2022/09/30/CB-Prog.html" hidden></a>
