@@ -4,9 +4,6 @@ title: API
 permalink: /api/
 ---
 Possible APIs that may be useful for Final Project : 
-- [JavaScript Play](https://sanikasha.github.io/superFastPages/week%205/2022/09/24/JSPlay.html)
-- [HTML Play](https://sanikasha.github.io/superFastPages/week%205/2022/09/25/HTMLplay.html#scrum-group-example-html-list)
-- [JavaScript Calculator Attempt](https://sanikasha.github.io/superFastPages/week%205/2022/09/26/JSCalc.html)
-
-Table :
-- [JavaScript Table](https://sanikasha.github.io/superFastPages/week%205/2022/09/21/JS-1.html)
+- [Spotify API](https://sanikasha.github.io/superFastPages/week%207/2022/10/10/APIspotify.html)
+- [Genius API](https://sanikasha.github.io/superFastPages/week%207/2022/10/07/APIGroup.html)
+- [Rapid API Example](https://sanikasha.github.io/superFastPages/techtalk/rapidapi)
