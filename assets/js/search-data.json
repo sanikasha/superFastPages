@@ -256,7 +256,7 @@
     
         ,"post23": {
             "title": "Fetch of Backend Jokes",
-            "content": "Song Sad Happy .",
+            "content": "| Overview | Covid19 RapidAPI | Jokes API | Users Database | . Song Sad Happy .",
             "url": "https://sanikasha.github.io/superFastPages/data/jokes",
             "relUrl": "/data/jokes",
             "date": " • Jul 10, 2022"
@@ -304,7 +304,7 @@
   
       ,"page1": {
           "title": "API",
-          "content": "Possible APIs that may be useful for Final Project : . Spotify API | Genius API | Burger API, that for some reason is the only data in readable format | Rapid API Example | . Errors: . As a group, we attempted several methods of formatting the JSON data. Some of these include using W3Schools to learn more about JSON syntax, trying commands like json.dumps(), json.loads(), and more. | .",
+          "content": "| Overview | Covid19 RapidAPI | Jokes API | Users Database | . Possible APIs that may be useful for Final Project : . Spotify API | Genius API | Burger API, that for some reason is the only data in readable format | Rapid API Example | . Errors: . As a group, we attempted several methods of formatting the JSON data. Some of these include using W3Schools to learn more about JSON syntax, trying commands like json.dumps(), json.loads(), and more. | .",
           "url": "https://sanikasha.github.io/superFastPages/api/",
           "relUrl": "/api/",
           "date": ""
