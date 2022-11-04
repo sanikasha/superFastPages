@@ -1,6 +1,9 @@
 ---
-title: HTML Table Color Change
-categories: [Project]
+toc: true
+layout: post
+description: Tracking of progress made on Create Performance Task
+categories: [Create Performance Task]
+title: html table
 ---
 
 <html>
@@ -34,3 +37,6 @@ th:nth-child(even),td:nth-child(even) {
     <!-- javascript generated data -->
   </tbody>
 </table>
+
+</body>
+</html>
