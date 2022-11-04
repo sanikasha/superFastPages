@@ -1,3 +1,7 @@
+---
+title: HTML Table Color Change
+categories: [Project]
+---
 
 <html>
 <head>
