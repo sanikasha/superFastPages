@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Fetch of Backend Jokes | Sanika’s Blog</title>
+<title>Fetch of Backend | Sanika’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Fetch of Backend Jokes" />
+<meta property="og:title" content="Fetch of Backend" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An example of Frontend talking to Backend Python application serving jokes. This example provides the ability to react to the Joke (haha or boohoo)." />
 <meta property="og:description" content="An example of Frontend talking to Backend Python application serving jokes. This example provides the ability to react to the Joke (haha or boohoo)." />
@@ -16,9 +16,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-07-10T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Fetch of Backend Jokes" />
+<meta property="twitter:title" content="Fetch of Backend" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-10T00:00:00-05:00","datePublished":"2022-07-10T00:00:00-05:00","description":"An example of Frontend talking to Backend Python application serving jokes. This example provides the ability to react to the Joke (haha or boohoo).","headline":"Fetch of Backend Jokes","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/data/songs"},"url":"https://sanikasha.github.io/superFastPages/data/songs"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-10T00:00:00-05:00","datePublished":"2022-07-10T00:00:00-05:00","description":"An example of Frontend talking to Backend Python application serving jokes. This example provides the ability to react to the Joke (haha or boohoo).","headline":"Fetch of Backend","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/data/songs"},"url":"https://sanikasha.github.io/superFastPages/data/songs"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/superFastPages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sanikasha.github.io/superFastPages/feed.xml" title="Sanika's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/superFastPages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,6 +87,8 @@ window.onload = wrap_img;
     <th>Song</th>
     <th>Sad</th>
     <th>Happy</th>
+    <th>Rage</th>
+    <th>Indian</th>
   </tr>
   </thead>
   <tbody id="result">
@@ -103,11 +105,15 @@ window.onload = wrap_img;
   // keys for joke reactions
   const SAD = "sad";
   const HAPPY = "happy";
+  const RAGE = "rage";
+  const INDIAN = "indian";
 
   // prepare fetch urls
-  const url = "http://ssjn.nighthawkcodescrums.gq/api/song";
+  const url = "https://ssjn.nighthawkcodescrums.gq/api/song";
   const sad_url = url + "/sad/";  // haha reaction
   const happy_url = url + "/happy/";  // boohoo reaction
+  const rage_url = url + "/rage/";  // boohoo reaction
+  const indian_url = url + "/indian/";
 
   // prepare fetch GET options
   const options = {
@@ -164,11 +170,34 @@ window.onload = wrap_img;
                 reaction(HAPPY, happy_url+row.id, happy_but.id);  
               };
               happy.appendChild(happy_but);  // add "boohoo button" to boohoo cell
+          
+              // td for haha cell with onclick actions (making the buttons)
+            const rage = document.createElement("td");
+              const rage_but = document.createElement('button');
+              rage_but.id = RAGE+row.id   // establishes a HAHA JS id for cell
+              rage_but.innerHTML = row.rage;  // add fetched "haha count" to innerHTML
+              rage_but.onclick = function () {
+                // onclick function call with "like parameters"
+                reaction(RAGE, rage_url+row.id, rage_but.id);  
+              };
+              rage.appendChild(rage_but);  // add "haha button" to haha cell
+
+            const indian = document.createElement("td");
+              const indian_but = document.createElement('button');
+              indian_but.id = INDIAN+row.id   // establishes a HAHA JS id for cell
+              indian_but.innerHTML = row.indian;  // add fetched "haha count" to innerHTML
+              indian_but.onclick = function () {
+                // onclick function call with "like parameters"
+                reaction(INDIAN, indian_url+row.id, indian_but.id);  
+              };
+              indian.appendChild(indian_but);  // add "haha button" to haha cell
              
             // this builds ALL td's (cells) into tr (row) element
             tr.appendChild(song);
             tr.appendChild(sad);
             tr.appendChild(happy);
+            tr.appendChild(rage);
+            tr.appendChild(indian);
 
             // this adds all the tr (row) work above to the HTML "result" container
             resultContainer.appendChild(tr);
@@ -200,6 +229,10 @@ window.onload = wrap_img;
             document.getElementById(elemID).innerHTML = data.sad;  // fetched haha data assigned to haha Document Object Model (DOM)
           else if (type === HAPPY) // jeer data element
             document.getElementById(elemID).innerHTML = data.happy;  // fetched boohoo data assigned to boohoo Document Object Model (DOM)
+          else if (type === RAGE)
+            document.getElementById(elemID).innerHTML = data.rage;
+          else if (typer === INDIAN)
+            document.getElementById(elemID).innerHTML = data.indian;
           else
             error("unknown type: " + type);  // should never occur
       })
