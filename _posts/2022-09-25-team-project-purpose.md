@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: SSJN's Group Project Purpose Description.
-categories: [markdown]
+categories: [SSJN]
 title: SSJN Project Purpose
 ---
 

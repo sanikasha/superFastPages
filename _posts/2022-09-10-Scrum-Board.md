@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Tracking of progress made on Create Performance Task
-categories: [Create Performance Task]
+categories: [SSJN]
 title: Scrum Board
 ---
 
