@@ -11,13 +11,13 @@ permalink: /learningtargets/
 | Output     | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ |
 | Input   | a ← INPUT() | 	a = input(prompt) | Accepts a value from the user and returns it to the variable a. |
 | Assignment | a ← expression | 	a = expression | Evaluates expression and assigns the result to the variable a. |
-| Lists | | [] | a way to group data into ordered sequences |
-| Dictionaries | | {} | a way of grouping data into in key-value relationships |
-| HTML Fragments | | | HTML fragments are portions of code used in a greater coding system that enable functionality specific to the current page |
-| API | | | A Web API is an application programming interface typically for a web browser. |
-| Frontend | | | Front-end web development is the development of the graphical user interface of a website, utilize HTML and JavaScript |
-| Backend | | | Functionality, code that connects the web to a database, manages user connections, and powers the web application itself |
-| Deployment | x | | Deploying a Web Application enables a Server and Web Application to be available to users on the Internet |
+| Lists | N/A | [] | a way to group data into ordered sequences |
+| Dictionaries | N/A | {} | a way of grouping data into in key-value relationships |
+| HTML Fragments | N/A | N/A | HTML fragments are portions of code used in a greater coding system that enable functionality specific to the current page |
+| API | N/A | N/A | A Web API is an application programming interface typically for a web browser. |
+| Frontend | N/A | N/A | Front-end web development is the development of the graphical user interface of a website, utilize HTML and JavaScript |
+| Backend | N/A | N/A | Functionality, code that connects the web to a database, manages user connections, and powers the web application itself |
+| Deployment | N/A | N/A | Deploying a Web Application enables a Server and Web Application to be available to users on the Internet |
 
 
 <h1>Deployment Resources</h1>
