@@ -77,28 +77,111 @@ window.onload = wrap_img;
 
   <div class="post-content">
     <h1>Vocab</h1>
-<p>| Word     | Pseudocode | Python | Def/Purpose |
-| ———– | ———– | ———– | ———– |
-| Output     | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ |
-| Input   | a ← INPUT() | 	a = input(prompt) | Accepts a value from the user and returns it to the variable a. |
-| Assignment | a ← expression | 	a = expression | Evaluates expression and assigns the result to the variable a. |
-| Lists | | [] | a way to group data into ordered sequences |
-| Dictionaries | | {} | a way of grouping data into in key-value relationships |
-| HTML Fragments | | | HTML fragments are portions of code used in a greater coding system that enable functionality specific to the current page |
-| API | | | A Web API is an application programming interface typically for a web browser. |
-| Frontend | | | Front-end web development is the development of the graphical user interface of a website, utilize HTML and JavaScript |
-| Backend | | | Functionality, code that connects the web to a database, manages user connections, and powers the web application itself |
-| Deployment | x | | Deploying a Web Application enables a Server and Web Application to be available to users on the Internet |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Word</th>
+      <th>Pseudocode</th>
+      <th>Python</th>
+      <th>Def/Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Output</td>
+      <td>DISPLAY(expression)</td>
+      <td>print(expression, end=” “)</td>
+      <td>Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “</td>
+    </tr>
+    <tr>
+      <td>Input</td>
+      <td>a ← INPUT()</td>
+      <td>a = input(prompt)</td>
+      <td>Accepts a value from the user and returns it to the variable a.</td>
+    </tr>
+    <tr>
+      <td>Assignment</td>
+      <td>a ← expression</td>
+      <td>a = expression</td>
+      <td>Evaluates expression and assigns the result to the variable a.</td>
+    </tr>
+    <tr>
+      <td>Lists</td>
+      <td> </td>
+      <td>[]</td>
+      <td>a way to group data into ordered sequences</td>
+    </tr>
+    <tr>
+      <td>Dictionaries</td>
+      <td> </td>
+      <td>{}</td>
+      <td>a way of grouping data into in key-value relationships</td>
+    </tr>
+    <tr>
+      <td>HTML Fragments</td>
+      <td> </td>
+      <td> </td>
+      <td>HTML fragments are portions of code used in a greater coding system that enable functionality specific to the current page</td>
+    </tr>
+    <tr>
+      <td>API</td>
+      <td> </td>
+      <td> </td>
+      <td>A Web API is an application programming interface typically for a web browser.</td>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td> </td>
+      <td> </td>
+      <td>Front-end web development is the development of the graphical user interface of a website, utilize HTML and JavaScript</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td> </td>
+      <td> </td>
+      <td>Functionality, code that connects the web to a database, manages user connections, and powers the web application itself</td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>x</td>
+      <td> </td>
+      <td>Deploying a Web Application enables a Server and Web Application to be available to users on the Internet</td>
+    </tr>
+  </tbody>
+</table>
 
 <h1>Deployment Resources</h1>
-<p>| Resources     | Purpose |
-| ———– | ———– |
-| EC2 | a cloud computing platform that the PUSD district has provided for their students to serve our Web Application |
-| GitHub | The leading open platform to share a code across the Internet. |
-| Docker and docker-compose | Docker container prepares an environment that contains the Web Application code and all the dependencies (requirements.txt for Python) Docker is an open platform for developing, shipping, and running applications. |
-| Nginx | Nginx is an open source software for web serving, reverse proxy, caching, load balancing, media streaming, and more. |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resources</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC2</td>
+      <td>a cloud computing platform that the PUSD district has provided for their students to serve our Web Application</td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td>The leading open platform to share a code across the Internet.</td>
+    </tr>
+    <tr>
+      <td>Docker and docker-compose</td>
+      <td>Docker container prepares an environment that contains the Web Application code and all the dependencies (requirements.txt for Python) Docker is an open platform for developing, shipping, and running applications.</td>
+    </tr>
+    <tr>
+      <td>Nginx</td>
+      <td>Nginx is an open source software for web serving, reverse proxy, caching, load balancing, media streaming, and more.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h1>AWS</h1>
+
 <p>Start SSJN on Flask:
 cd ~/p3t2_ssjn_flask/
 source webapp/bin/activate</p>
@@ -117,11 +200,33 @@ sudo docker-compose build –no-cache
 sudo docker-compose up -d</p>
 
 <h1>Initial Targets, Important</h1>
-<p>| Week     | Topics | Learnings |
-| ———– | ———– | ———– |
-| 1 | Tools Setup | Create Fastpage, Creat first Jupyter notebook, Screen capture of VS Studio |
-| 2 | Intro Python, Jupyter, Fastpages | Productive Blogging, Jupyter Notebook using Bash, more |
-| 3 | Data Abstraction | List/Dictionaries Iteration, HTML/Markdown Fragments |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Topics</th>
+      <th>Learnings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Tools Setup</td>
+      <td>Create Fastpage, Creat first Jupyter notebook, Screen capture of VS Studio</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Intro Python, Jupyter, Fastpages</td>
+      <td>Productive Blogging, Jupyter Notebook using Bash, more</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Data Abstraction</td>
+      <td>List/Dictionaries Iteration, HTML/Markdown Fragments</td>
+    </tr>
+  </tbody>
+</table>
 
 
   </div>
