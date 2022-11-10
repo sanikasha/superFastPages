@@ -5,6 +5,7 @@ permalink: /learningtargets/
 ---
 
 <h1>Vocab</h1>
+
 | Word     | Pseudocode | Python | Def/Purpose |
 | ----------- | ----------- | ----------- | ----------- |
 | Output     | DISPLAY(expression) | print(expression, end=” “) | Displays the value of expression, followed by a space. Python defaults to newline, thus the end=” “ |
@@ -20,6 +21,7 @@ permalink: /learningtargets/
 
 
 <h1>Deployment Resources</h1>
+
 | Resources     | Purpose |
 | ----------- | ----------- |
 | EC2 | a cloud computing platform that the PUSD district has provided for their students to serve our Web Application |
@@ -28,6 +30,7 @@ permalink: /learningtargets/
 | Nginx | Nginx is an open source software for web serving, reverse proxy, caching, load balancing, media streaming, and more. |
 
 <h1>AWS</h1>
+
 Start SSJN on Flask:
 cd ~/p3t2_ssjn_flask/
 source webapp/bin/activate 
@@ -47,6 +50,7 @@ sudo docker-compose up -d
 
 
 <h1>Initial Targets, Important</h1>
+
 | Week     | Topics | Learnings |
 | ----------- | ----------- | ----------- |
 | 1 | Tools Setup | Create Fastpage, Creat first Jupyter notebook, Screen capture of VS Studio |
