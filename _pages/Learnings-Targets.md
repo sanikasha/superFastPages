@@ -16,7 +16,7 @@ permalink: /learningtargets/
 | API | | | A Web API is an application programming interface typically for a web browser. |
 | Frontend | | | Front-end web development is the development of the graphical user interface of a website, utilize HTML and JavaScript |
 | Backend | | | Functionality, code that connects the web to a database, manages user connections, and powers the web application itself |
-| Deployment | | | Deploying a Web Application enables a Server and Web Application to be available to users on the Internet |
+| Deployment | x | | Deploying a Web Application enables a Server and Web Application to be available to users on the Internet |
 
 
 <h1>Deployment Resources</h1>
