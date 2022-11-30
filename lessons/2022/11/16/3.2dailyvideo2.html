@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      3 min read
     
 </span></p>
 
@@ -357,48 +357,46 @@ Use extend or append
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Binary-Hacks">Binary Hacks<a class="anchor-link" href="#Binary-Hacks"> </a></h1><p>Convert these binary notation to decimal notation. (the way we normally count)</p>
 <ol>
-<li>The binary number 111.<details closed="">
- <summary>Click for the answer!</summary>
-     7
- </details></li>
+<li>The binary number 111.
+1 + 2 + 4 =
+<pre><code> 7</code></pre>
+</li>
 </ol>
-<hr />
 <ol>
-<li>The binary number 1011.<details closed="">
- <summary>Click for the answer!</summary>
-     11
- </details></li>
+<li>The binary number 1011.
+1 + 2 + 8 =
+<pre><code> 11</code></pre>
+</li>
 </ol>
-<hr />
 <ol>
-<li>The binary number 1101011.<details closed="">
- <summary>Click for the answer!</summary>
-     107
- </details></li>
+<li>The binary number 1101011.
+1 + 2 + 8 + 32 + 64 =
+<pre><code> 107</code></pre>
+</li>
 </ol>
-<hr />
 <p>Convert the decimal notation to binary notation. (You can use the Binary Math from Mr. Yeung or the one you have)</p>
 <ol>
-<li>12<details closed="">
- <summary>Click for the answer!</summary>
-     1100
- </details></li>
+<li>12</li>
 </ol>
-<hr />
+<p>4 + 8 = 12</p>
+<p>1100</p>
 <ol>
-<li>44 <details closed="">
- <summary>Click for the answer!</summary>
-     101100
- </details></li>
+<li>44 </li>
 </ol>
-<hr />
+<p>8 + 4 + 32 = 44</p>
+
+<pre><code>    101100
+
+</code></pre>
 <ol>
-<li>254<details closed="">
- <summary>Click for the answer!</summary>
-     11111110
- </details></li>
+<li>254</li>
 </ol>
-<hr />
+<p>255 - 1 = 254</p>
+
+<pre><code>    11111110
+
+
+</code></pre>
 <h2 id="Extra-Binary-Hacks-if-you-changed-your-bits-to-24">Extra Binary Hacks if you changed your bits to 24<a class="anchor-link" href="#Extra-Binary-Hacks-if-you-changed-your-bits-to-24"> </a></h2><p>Convert decimal notation to binary notation.</p>
 <ol>
 <li>57345<details closed="">
@@ -457,15 +455,9 @@ Use extend or append
 </ul>
 <p>What are the contents of <em>scores1</em> after the code segment is executed?:</p>
 <ol>
-<li>[89, 78, 92, 63, 95, 88]</li>
-<li>[89, 78, 92, 63, 95, 88, 92, 79, 97, 63]</li>
-<li>[92, 79, 97, 63, 89, 78, 92, 63, 95, 88]</li>
 <li>[92, 79, 97, 63]</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-    4. Because the data is not being appended from scores2 into scores1. 
-</details><hr />
+<hr />
 <p><strong>Consider the following code segment:</strong></p>
 <ul>
 <li>listA &lt;- ["Sam", "Ann"]</li>
@@ -476,95 +468,50 @@ Use extend or append
 <p>What are the contents of <em>listA</em> after the code segment is executed?</p>
 <ol>
 <li>["Sam", "Ann"]</li>
-<li>["Jamal", "Tamara"]</li>
-<li>["Sam", "Ann", "Jamal", "Tamara"]</li>
-<li>["Jamal", "Tamara", "Sam", "Ann"]</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-1. Because all of the data from listA "Sam" and "Ann" replace what is in listB. So if listB replaces what is in listA, "Sam" and "Ann" will still be the only data in that list. 
-</details><hr />
+<p>Though value of listB changes to match listA, listA remains the same due to taking on the value of the new listB.</p>
+<hr />
 <p><strong>What is the length of this list?</strong>
 ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"]</p>
 <ol>
-<li>5</li>
-<li>7</li>
 <li>6</li>
-<li>4</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-3. The length of the list is 6. 
-</details><hr />
+<hr />
 <p><strong>What is the index number of "Purple" in this list?</strong>
 ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"]</p>
-<ol>
-<li>7</li>
-<li>0</li>
-<li>6</li>
-<li>5</li>
-</ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-4. The index count starts at 0, making "Red" 0 and "Purple" index 5. 
-</details><hr />
+<p>Count starts at 0, therefore there is index 5.</p>
+<hr />
 <p><strong>Which of the following types of data can be stored in a list?</strong></p>
 <ol>
-<li>Boolean</li>
-<li>String</li>
-<li>Float</li>
 <li>All of the above</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-4. Any type of data can be stored within a list. A list can contain a mix of types of data. 
-</details><hr />
+<p>Note: Any type of data can be stored within a list. A list can contain a mix of types of data.</p>
+<hr />
 <p><strong>Which of the following variables is a float?</strong></p>
 <ol>
-<li>Apples</li>
 <li>-106.2</li>
-<li>34</li>
-<li>True</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-    2. A float is a decimal number.
-</details><hr />
+<p>Note: A float is a decimal number.</p>
+<hr />
 <p><strong>If a list has a length of 24 items, what is the index number of the 17th item?</strong></p>
-<ol>
-<li>21</li>
-<li>17</li>
-<li>16</li>
-<li>69</li>
-</ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-    3. An index count starts at 0 so the index number of a variable is one less than it's spot in the length. 
-</details><hr />
+<p>Index starts at 0, therefore the 17th item would be the 16th index.</p>
+<hr />
 <p><strong>A variable is permanent and cannot be changed later on.</strong></p>
 <ol>
-<li>True</li>
 <li>False</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-2. False. Variables can be changed later on in the code. 
-</details><hr />
+<hr />
 <p><strong>Which of the following is true about the list?</strong>
 ["Apples", 42.0, "Bananas", 0.5, "Avocado", -902.2, "Lychee", 6.9, "Orange", 7.2]</p>
 <ol>
-<li>The list has floats and string variable types.</li>
-<li>The ratio of float variables to string variables is 2:1.</li>
-<li>The length is 9.</li>
-<li>The index of "Avocado" is 4.</li>
-<li>All of the above</li>
-<li>1 and 4</li>
-<li>1, 3, and 4</li>
+<li><p>1 and 4</p>
+</li>
+<li><p>The list has floats and string variable types.</p>
+</li>
+<li><p>The index of "Avocado" is 4.</p>
+</li>
 </ol>
-<details closed="">
-<summary>Click for the answer!</summary>
-6. The list has floats or decimals and strings, and the length is 10, the ratio of string to floats is 1:1, and the index number of "Avocado" is 4.
-</details><hr />
+<hr />
 
 </div>
 </div>
