@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Lesson 8/10 Hacks",
-            "content": "array = [1, 2, 3, 4, 5] array.reverse() print(&#39;Reversed List:&#39;, array) . Reversed List: [5, 4, 3, 2, 1] . list = [9, 8, 4, 3, 5, 2, 6, 7, 1, 0] def bubbleSort(list): n = len(list) for i in range(n): for j in range(0, len(list) - i - 1): if list[j] &gt; list[j + 1]: value = list[j] list[j] = list[j + 1] list[j + 1] = value bubbleSort(list) print(list) . [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] .",
+            "content": "array = [1, 2, 3, 4, 5, 6] array.reverse() print(&#39;Reversed List:&#39;, array) . Reversed List: [6, 5, 4, 3, 2, 1] . list = [9, 8, 4, 3, 5, 2, 6, 7, 1, 0] def bubbleSort(list): n = len(list) for i in range(n): for j in range(0, len(list) - i - 1): if list[j] &gt; list[j + 1]: value = list[j] list[j] = list[j + 1] list[j + 1] = value bubbleSort(list) print(list) . [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] .",
             "url": "https://sanikasha.github.io/superFastPages/lessons/2022/12/06/Lesson.html",
             "relUrl": "/lessons/2022/12/06/Lesson.html",
             "date": " • Dec 6, 2022"
