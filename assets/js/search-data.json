@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Lesson 8/10 Quiz Correction/",
-            "content": ". FOR discludes everything but was is listed, so it will continue until the user inputs “quit”, unlike WHILE. .",
+            "title": "Lesson 8/10 Quiz Correction and JavaScript Analysis",
+            "content": ". FOR is best for when the number of repititions is know, whereas the WHILE will continue until the code breaks or is told to break. Because the code continues until the user inputs “quit”, WHILE is the best answer. . Javascript Quiz: . Lists allow for multiple pieces of information to be assigned to one variable. This can help with repeating the same process for multiple items, as well as displaying certain sequences. Iteration helps completes a series processes so that each repition doesn’t need to be written out by the coder. .",
             "url": "https://sanikasha.github.io/superFastPages/lessons/2022/12/06/Lesson8.html",
             "relUrl": "/lessons/2022/12/06/Lesson8.html",
             "date": " • Dec 6, 2022"
