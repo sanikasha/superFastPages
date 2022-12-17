@@ -409,6 +409,17 @@
   
     
         ,"post37": {
+            "title": "Lesson 16 Hacks",
+            "content": "Notes . Simulation: a simpler abstraction of a complex natural phenomena . Simulation vs Experiment: . Safer | Less costly | Can make better predictions | . Why make a simulation? . Can manage complex situations without actually delving into the complexities of the real world problem | . Question Answer . Sanika Shahapurkar | | . 1 | no question | . 2 | no question | . 3 | C, random numbers are important in a variety of situations but will not make the simulation itself more accurate | . 4 | B, the other aircraft does not neccesarily have a direct impact on the functionality of a specific aircraft | . 5 | C, the situation when using and experiment or simulation could be the same but one is often more effective for the specific situation | . 6 | A, the car company can not put actual customers in car crashes | . 7 | A, infliciting harm on the environment is not tangible for the study | . 8 | no question | . 9 | B, a simple average calclulation is possible because values are already provided | .",
+            "url": "https://sanikasha.github.io/superFastPages/lessons/2020/12/17/Lesson16.html",
+            "relUrl": "/lessons/2020/12/17/Lesson16.html",
+            "date": " • Dec 17, 2020"
+        }
+        
+    
+  
+    
+        ,"post38": {
             "title": "My first markdown and more",
             "content": "The link to my Github Insights: https://github.com/sanikasha/superFastPages/pulse . My Fastpages VS Code Project: . .",
             "url": "https://sanikasha.github.io/superFastPages/week%200/2020/08/21/my-first-markdown.html",
@@ -419,7 +430,7 @@
     
   
     
-        ,"post38": {
+        ,"post39": {
             "title": "Sanika's Jupyter Notebook 1",
             "content": "print(&quot;Hello from Sanika&quot;) . Hello from Sanika .",
             "url": "https://sanikasha.github.io/superFastPages/week%200/2020/08/21/Hello.html",
