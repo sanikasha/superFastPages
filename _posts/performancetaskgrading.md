@@ -2,10 +2,10 @@
 toc: true
 layout: post
 categories: [Create Performance Task]
-title: Performance Task Scoring 1
+title: Performance Task Scoring
 ---
 
-<h2>Student 1<h2>
+<h2>Student 1</h2>
 
 Actual Score CPT: 4/6
 
@@ -18,7 +18,7 @@ Actual Score CPT: 4/6
 | Algorithm Implementation | 1 | 1 | There are if/then statements used in their procedure, which classifies as algorithms. College board seemed to appreciate the detail given to explain the steps of the alhorithms |
 | Testing | 1 | 1 | Describes two calls, describes conditions being tested for. I would like to increase my understanding of calls, as it is mentioned quite a bit in Row 6 grading. |
 
-<h2>Student 2<h2>
+<h2>Student 2</h2>
 
 Actual Score CPT: 6/6
 
