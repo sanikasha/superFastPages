@@ -22,13 +22,16 @@ Plan:
 | ----------- | ----------- |
 | Program Purpose and Function | Help people of all ages to gain a thorough understanding of their own skin, and therefore increase their self-confidence. Use dictionaries, keys, and lists to fetch multiple product recommendations from an API |
 | Data Abstraction | Products stored in list in flask repo deployed on AWS, variables will be determined by user input (dry skin/not dry skin)|
-| Managing Complexity |  |
-| Procedural Abstraction | 0 |
-| Algorithm Implementation | 0 |
-| Testing | 1 |
+| Managing Complexity | Algorithm to provide multiple results to user input, rather than seperate correspondents |
+| Procedural Abstraction | Procedure called when user clicks submit to the quiz, ensure to describe the procedure |
+| Algorithm Implementation | Use iteration and selection to select the proper item from the list in the API, and display it on frontend for user use |
+| Testing | Explain thouroughly, show input and output |
 
 Video Plan:
-
+- Sped-up (but still understandable)
+- Shows submitting input, and shows result
+- Possibly show API where output was fetched from
+- Video less than 1 minute
 
 Individual: 5.1, 5.2 Blog
 
@@ -85,7 +88,6 @@ What concerns do you have personally about the digital divide?  For yourself or 
 Without a personal computer, individuals will struggle to gain a full understanding of hardware and software that will be used in the real world.
 
 
-
 Individual: MCQ Test #2 
 47/50
 
@@ -98,7 +100,4 @@ While I said "Algorithm B always calculates the correct average, but Algorithm A
 
 Q50 ASCII character with hexidecimal
 My answer was L, as I guessed and did not understand the question. I feel similarly on this how I felt on binary in the last College Board assesment. The correct answer is V.
-
-Reflecton:
-
 
