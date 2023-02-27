@@ -645,17 +645,6 @@
   
 
   
-      ,"page6": {
-          "title": "Database CRUD Operations",
-          "content": ". Enter product you want to find: . . . Database API . Product Ingredients . Serum . Allergy: Product: Database API . Product Ingredients . //try individual column //diff column try //this works .",
-          "url": "https://sanikasha.github.io/superFastPages/sanika.html",
-          "relUrl": "/sanika.html",
-          "date": ""
-      }
-      
-  
-
-  
   
 
   
@@ -684,7 +673,7 @@
   
 
   
-      ,"page18": {
+      ,"page17": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://sanikasha.github.io/superFastPages/robots.txt",
