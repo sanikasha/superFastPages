@@ -5,6 +5,7 @@ categories: [Create Performance Task]
 title: Performance Task Scoring 3
 ---
 
+Notes/Reflection: I noticed that I am getting better at grading the Performance Tasks, as my grades match College Board the majority of the time. The most common mistakes seem to be related to missing or forgetting to explain a certain requirement. This is quite preventable, and may be done by using organization tactics (like issues or scrum boards) to prevent this error with our Create Performance Task.
 
 <h2>Student 1</h2>
 
