@@ -1,6 +1,6 @@
 ---
 title: Fetch of Covid19 data with RapidAPI
-layout: default
+layout: base
 description: An introductory example of talking to Backend Java application serving 3rd Party API.  Fetching data and formatting results is a way to visuals information, in this case Covid19 statistics across the Globe. 
 permalink: /data/covid
 image: /images/rapidapi.png
