@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 description: My first markdown, Github insights, and VScode screen.
 categories: [Week 0]
 title: My first markdown and more

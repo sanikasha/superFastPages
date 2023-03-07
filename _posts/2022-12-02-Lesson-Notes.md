@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 categories: [Lessons]
 title: Lesson Notes
 ---
