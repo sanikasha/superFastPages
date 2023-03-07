@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: base
 categories: [AP Exam]
 title: MC 3, Tri 2 CB Final Corrections
 ---
