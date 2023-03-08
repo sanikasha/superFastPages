@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: base
+layout: post
 categories: [Create Performance Task]
 title: Performance Task Scoring 2
 ---
