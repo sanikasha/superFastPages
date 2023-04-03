@@ -379,6 +379,50 @@ producer: [&#39;Taylor Swift&#39;, &#39;Jack Antonoff&#39;, &#39;Joel Little&#39
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2> List Comprehension </h2>
+</div>
+</div>
+</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tracks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;State of Grace (Taylor&#39;s Version)&quot;</span><span class="p">,</span> <span class="s2">&quot;Red&quot;</span><span class="p">,</span> <span class="s2">&quot;Treacherous (Taylor&#39;s Version)&quot;</span><span class="p">,</span> <span class="s2">&quot;I Knew You Were Trouble&quot;</span><span class="p">,</span> <span class="s2">&quot;All Too Well (Taylor&#39;s Version)&quot;</span><span class="p">,</span> <span class="s2">&quot;22&quot;</span><span class="p">,</span> <span class="s2">&quot;I Almost Do (Taylor&#39;s Version)&quot;</span><span class="p">,</span> <span class="s2">&quot;We Are Never Ever Getting Back Together (Taylor&#39;s Version)&quot;</span><span class="p">]</span>
+<span class="n">newtracks</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tracks</span><span class="p">:</span>
+  <span class="k">if</span> <span class="s2">&quot;Taylor&#39;s Version&quot;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">newtracks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">newtracks</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[&#34;State of Grace (Taylor&#39;s Version)&#34;, &#34;Treacherous (Taylor&#39;s Version)&#34;, &#34;All Too Well (Taylor&#39;s Version)&#34;, &#34;I Almost Do (Taylor&#39;s Version)&#34;, &#34;We Are Never Ever Getting Back Together (Taylor&#39;s Version)&#34;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Hacks">Hacks<a class="anchor-link" href="#Hacks"> </a></h2><ul>
 <li>Answer <em>ALL</em> questions in the code segments</li>
 <li>Create a diagram or comparison illustration (Canva).<ul>
