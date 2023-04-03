@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      12 min read
+      13 min read
     
 </span></p>
 
@@ -123,6 +123,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#What-is-Hashing-and-Collision?">What is Hashing and Collision? </a></li>
 <li class="toc-entry toc-h2"><a href="#What-is-a-Set?">What is a Set? </a></li>
 <li class="toc-entry toc-h2"><a href="#Dictionary-Example">Dictionary Example </a></li>
+<li class="toc-entry toc-h2"><a href="#-list-comprehension-"> List Comprehension </a></li>
 <li class="toc-entry toc-h2"><a href="#Hacks">Hacks </a></li>
 </ul><!--
 #################################################
@@ -497,6 +498,52 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>{1: "State of Grace (Taylor's Version)", 2: "Red (Taylor's Version)", 3: "Treacherous (Taylor's Version)", 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: 'All Too Well (10 minute version)', 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2>
+<a class="anchor" href="#-list-comprehension-" aria-hidden="true"><span class="octicon octicon-link"></span></a> List Comprehension </h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tracks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"State of Grace (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"Red"</span><span class="p">,</span> <span class="s2">"Treacherous (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"I Knew You Were Trouble"</span><span class="p">,</span> <span class="s2">"All Too Well (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"22"</span><span class="p">,</span> <span class="s2">"I Almost Do (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"We Are Never Ever Getting Back Together (Taylor's Version)"</span><span class="p">]</span>
+<span class="n">newtracks</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tracks</span><span class="p">:</span>
+  <span class="k">if</span> <span class="s2">"Taylor's Version"</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">newtracks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">newtracks</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>["State of Grace (Taylor's Version)", "Treacherous (Taylor's Version)", "All Too Well (Taylor's Version)", "I Almost Do (Taylor's Version)", "We Are Never Ever Getting Back Together (Taylor's Version)"]
 </pre>
 </div>
 </div>
