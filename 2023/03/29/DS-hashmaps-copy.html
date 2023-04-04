@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions | Sanika’s Blog</title>
+<title>Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions X | Sanika’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions" />
+<meta property="og:title" content="Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions X" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Observing hashmaps with python dictionaries" />
 <meta property="og:description" content="Observing hashmaps with python dictionaries" />
@@ -18,9 +18,9 @@
 <meta property="article:published_time" content="2023-03-29T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://sanikasha.github.io/superFastPages/images/python.png" />
-<meta property="twitter:title" content="Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions" />
+<meta property="twitter:title" content="Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions X" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-29T00:00:00-05:00","datePublished":"2023-03-29T00:00:00-05:00","description":"Observing hashmaps with python dictionaries","headline":"Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions","image":"https://sanikasha.github.io/superFastPages/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/2023/03/29/DS-hashmaps-copy.html"},"url":"https://sanikasha.github.io/superFastPages/2023/03/29/DS-hashmaps-copy.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-29T00:00:00-05:00","datePublished":"2023-03-29T00:00:00-05:00","description":"Observing hashmaps with python dictionaries","headline":"Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions X","image":"https://sanikasha.github.io/superFastPages/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/2023/03/29/DS-hashmaps-copy.html"},"url":"https://sanikasha.github.io/superFastPages/2023/03/29/DS-hashmaps-copy.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/superFastPages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sanikasha.github.io/superFastPages/feed.xml" title="Sanika's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/superFastPages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -75,13 +75,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions</h1><p class="page-description">Observing hashmaps with python dictionaries</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-29T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Data Structures- Hashmaps, Sets, Hash Tables, Hashing and Collisions X</h1><p class="page-description">Observing hashmaps with python dictionaries</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-29T00:00:00-05:00" itemprop="datePublished">
         Mar 29, 2023
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      13 min read
+      14 min read
     
 </span></p>
 
@@ -123,7 +123,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#What-is-Hashing-and-Collision?">What is Hashing and Collision? </a></li>
 <li class="toc-entry toc-h2"><a href="#What-is-a-Set?">What is a Set? </a></li>
 <li class="toc-entry toc-h2"><a href="#Dictionary-Example">Dictionary Example </a></li>
-<li class="toc-entry toc-h2"><a href="#-list-comprehension-"> List Comprehension </a></li>
 <li class="toc-entry toc-h2"><a href="#Hacks">Hacks </a></li>
 </ul><!--
 #################################################
@@ -224,9 +223,9 @@ window.onload = wrap_img;
     <span class="s2">"year"</span><span class="p">:</span> <span class="mi">2021</span><span class="p">,</span>
     <span class="s2">"genre"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Pop"</span><span class="p">,</span> <span class="s2">"Synth-pop"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">],</span>
     <span class="s2">"tracks"</span><span class="p">:</span> <span class="p">{</span>
-        <span class="mi">1</span><span class="p">:</span> <span class="s2">"State of Grace (Taylor's Version)"</span><span class="p">,</span>
-        <span class="mi">2</span><span class="p">:</span> <span class="s2">"Red (Taylor's Version)"</span><span class="p">,</span>
-        <span class="mi">3</span><span class="p">:</span> <span class="s2">"Treacherous (Taylor's Version)"</span><span class="p">,</span>
+        <span class="mi">1</span><span class="p">:</span> <span class="s2">"State of Grace"</span><span class="p">,</span>
+        <span class="mi">2</span><span class="p">:</span> <span class="s2">"Red"</span><span class="p">,</span>
+        <span class="mi">3</span><span class="p">:</span> <span class="s2">"Treacherous"</span><span class="p">,</span>
         <span class="mi">4</span><span class="p">:</span> <span class="s2">"I Knew You Were Trouble (Taylor's Version)"</span><span class="p">,</span>
         <span class="mi">5</span><span class="p">:</span> <span class="s2">"All Too Well (Taylor's Version)"</span><span class="p">,</span>
         <span class="mi">6</span><span class="p">:</span> <span class="s2">"22 (Taylor's Version)"</span><span class="p">,</span>
@@ -276,7 +275,7 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>{'title': "Red (Taylor's Version)", 'artist': 'Taylor Swift', 'year': 2021, 'genre': ['Pop', 'Synth-pop', 'Country'], 'tracks': {1: "State of Grace (Taylor's Version)", 2: "Red (Taylor's Version)", 3: "Treacherous (Taylor's Version)", 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: "Girl At Home (Taylor's Version)", 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}}
+<pre>{'title': "Red (Taylor's Version)", 'artist': 'Taylor Swift', 'year': 2021, 'genre': ['Pop', 'Synth-pop', 'Country'], 'tracks': {1: 'State of Grace', 2: 'Red', 3: 'Treacherous', 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: "Girl At Home (Taylor's Version)", 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}}
 </pre>
 </div>
 </div>
@@ -402,11 +401,14 @@ I Knew You Were Trouble (Taylor's Version)
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">red_album</span><span class="p">[</span><span class="s2">"tracks"</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="mi">19</span><span class="p">:</span> <span class="s2">"All Too Well (10 minute version)"</span><span class="p">})</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="c1"># Adding a an key-value pair to an existing key </span>
+<span class="n">red_album</span><span class="p">[</span><span class="s2">"tracks"</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="mi">19</span><span class="p">:</span> <span class="s2">"All Too Well (10 minute version)"</span><span class="p">})</span>
 
 <span class="c1"># How would add an additional genre to the dictionary, like electropop? </span>
 <span class="c1"># </span>
-<span class="c1"># </span>
+<span class="c1">#red_album["genre"].update({20: "Pop-rock"})</span>
 
 <span class="c1"># Printing the dictionary</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">red_album</span><span class="p">)</span>
@@ -422,7 +424,7 @@ I Knew You Were Trouble (Taylor's Version)
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>{'title': "Red (Taylor's Version)", 'artist': 'Taylor Swift', 'year': 2021, 'genre': ['Pop', 'Synth-pop', 'Country'], 'tracks': {1: "State of Grace (Taylor's Version)", 2: "Red (Taylor's Version)", 3: "Treacherous (Taylor's Version)", 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: 'All Too Well (10 minute version)', 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}, 'producer': ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Louis Bell', 'Frank Dukes']}
+<pre>{'title': "Red (Taylor's Version)", 'artist': 'Taylor Swift', 'year': 2021, 'genre': ['Pop', 'Synth-pop', 'Country'], 'tracks': {1: "State of Grace (Taylor's Version)", 2: "Red (Taylor's Version)", 3: "Treacherous (Taylor's Version)", 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: 'All Too Well (10 minute version)', 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}, 'producer': {'Louis Bell', 'Joel Little', 'Frank Dukes', 'Taylor Swift', 'Jack Antonoff'}}
 </pre>
 </div>
 </div>
@@ -442,6 +444,9 @@ I Knew You Were Trouble (Taylor's Version)
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">red_album</span><span class="o">.</span><span class="n">items</span><span class="p">():</span> <span class="c1"># iterate using a for loop for key and value</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">+</span> <span class="s2">": "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span>
+
+<span class="c1"># Write your own code to print tracks in readable format</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">red_album</span><span class="p">[</span><span class="s1">'tracks'</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -459,7 +464,38 @@ artist: Taylor Swift
 year: 2021
 genre: ['Pop', 'Synth-pop', 'Country']
 tracks: {1: "State of Grace (Taylor's Version)", 2: "Red (Taylor's Version)", 3: "Treacherous (Taylor's Version)", 4: "I Knew You Were Trouble (Taylor's Version)", 5: "All Too Well (Taylor's Version)", 6: "22 (Taylor's Version)", 7: "I Almost Do (Taylor's Version)", 8: "We Are Never Ever Getting Back Together (Taylor's Version)", 9: "Stay Stay Stay (Taylor's Version)", 10: "The Last Time (Taylor's Version)", 11: "Holy Ground (Taylor's Version)", 12: "Sad Beautiful Tragic (Taylor's Version)", 13: "The Lucky One (Taylor's Version)", 14: "Everything Has Changed (Taylor's Version)", 15: "Starlight (Taylor's Version)", 16: "Begin Again (Taylor's Version)", 17: "The Moment I Knew (Taylor's Version)", 18: "Come Back...Be Here (Taylor's Version)", 19: 'All Too Well (10 minute version)', 20: "Ronan (Taylor's Version)", 21: "Better Man (Taylor's Version)[From the Vault]", 22: "Nothing New (Taylor's Version)[From the Vault]", 23: "Babe (Taylor's Version)[From the Vault]", 24: "Message In A Bottle (Taylor's Version)[From the Vault]", 25: "I Bet You Think About Me (Taylor's Version)[From the Vault]", 26: "Forever Winter (Taylor's Version)[From the Vault]", 27: "Run (Taylor's Version)[From the Vault]", 28: "The Very First Night (Taylor's Version)[From the Vault]", 29: "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"}
-producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Louis Bell', 'Frank Dukes']
+producer: {'Louis Bell', 'Joel Little', 'Frank Dukes', 'Taylor Swift', 'Jack Antonoff'}
+{
+    "1": "State of Grace (Taylor's Version)",
+    "2": "Red (Taylor's Version)",
+    "3": "Treacherous (Taylor's Version)",
+    "4": "I Knew You Were Trouble (Taylor's Version)",
+    "5": "All Too Well (Taylor's Version)",
+    "6": "22 (Taylor's Version)",
+    "7": "I Almost Do (Taylor's Version)",
+    "8": "We Are Never Ever Getting Back Together (Taylor's Version)",
+    "9": "Stay Stay Stay (Taylor's Version)",
+    "10": "The Last Time (Taylor's Version)",
+    "11": "Holy Ground (Taylor's Version)",
+    "12": "Sad Beautiful Tragic (Taylor's Version)",
+    "13": "The Lucky One (Taylor's Version)",
+    "14": "Everything Has Changed (Taylor's Version)",
+    "15": "Starlight (Taylor's Version)",
+    "16": "Begin Again (Taylor's Version)",
+    "17": "The Moment I Knew (Taylor's Version)",
+    "18": "Come Back...Be Here (Taylor's Version)",
+    "19": "All Too Well (10 minute version)",
+    "20": "Ronan (Taylor's Version)",
+    "21": "Better Man (Taylor's Version)[From the Vault]",
+    "22": "Nothing New (Taylor's Version)[From the Vault]",
+    "23": "Babe (Taylor's Version)[From the Vault]",
+    "24": "Message In A Bottle (Taylor's Version)[From the Vault]",
+    "25": "I Bet You Think About Me (Taylor's Version)[From the Vault]",
+    "26": "Forever Winter (Taylor's Version)[From the Vault]",
+    "27": "Run (Taylor's Version)[From the Vault]",
+    "28": "The Very First Night (Taylor's Version)[From the Vault]",
+    "29": "All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]"
+}
 </pre>
 </div>
 </div>
@@ -508,14 +544,6 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2>
-<a class="anchor" href="#-list-comprehension-" aria-hidden="true"><span class="octicon octicon-link"></span></a> List Comprehension </h2>
-</div>
-</div>
-</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -523,14 +551,12 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tracks</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"State of Grace (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"Red"</span><span class="p">,</span> <span class="s2">"Treacherous (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"I Knew You Were Trouble"</span><span class="p">,</span> <span class="s2">"All Too Well (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"22"</span><span class="p">,</span> <span class="s2">"I Almost Do (Taylor's Version)"</span><span class="p">,</span> <span class="s2">"We Are Never Ever Getting Back Together (Taylor's Version)"</span><span class="p">]</span>
-<span class="n">newtracks</span> <span class="o">=</span> <span class="p">[]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">search_string</span> <span class="o">=</span> <span class="s2">"(Taylor's Version)"</span>
+<span class="n">track_dict</span> <span class="o">=</span> <span class="n">red_album</span><span class="p">[</span><span class="s1">'tracks'</span><span class="p">]</span>
 
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tracks</span><span class="p">:</span>
-  <span class="k">if</span> <span class="s2">"Taylor's Version"</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
-    <span class="n">newtracks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">newtracks</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">track_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">search_string</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -543,7 +569,32 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>["State of Grace (Taylor's Version)", "Treacherous (Taylor's Version)", "All Too Well (Taylor's Version)", "I Almost Do (Taylor's Version)", "We Are Never Ever Getting Back Together (Taylor's Version)"]
+<pre>4: I Knew You Were Trouble (Taylor's Version)
+5: All Too Well (Taylor's Version)
+6: 22 (Taylor's Version)
+7: I Almost Do (Taylor's Version)
+8: We Are Never Ever Getting Back Together (Taylor's Version)
+9: Stay Stay Stay (Taylor's Version)
+10: The Last Time (Taylor's Version)
+11: Holy Ground (Taylor's Version)
+12: Sad Beautiful Tragic (Taylor's Version)
+13: The Lucky One (Taylor's Version)
+14: Everything Has Changed (Taylor's Version)
+15: Starlight (Taylor's Version)
+16: Begin Again (Taylor's Version)
+17: The Moment I Knew (Taylor's Version)
+18: Come Back...Be Here (Taylor's Version)
+19: Girl At Home (Taylor's Version)
+20: Ronan (Taylor's Version)
+21: Better Man (Taylor's Version)[From the Vault]
+22: Nothing New (Taylor's Version)[From the Vault]
+23: Babe (Taylor's Version)[From the Vault]
+24: Message In A Bottle (Taylor's Version)[From the Vault]
+25: I Bet You Think About Me (Taylor's Version)[From the Vault]
+26: Forever Winter (Taylor's Version)[From the Vault]
+27: Run (Taylor's Version)[From the Vault]
+28: The Very First Night (Taylor's Version)[From the Vault]
+29: All Too Well (Ten Minute Version) (Taylor's Version)[From the Vault]
 </pre>
 </div>
 </div>
