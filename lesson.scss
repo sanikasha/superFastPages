@@ -1,0 +1,27 @@
+// variable used
+$bgcolor: rgb(42, 184, 40);
+$clickcolor: #c66bc7;
+$evenColor: blue;
+
+@mixin button-style { // mixin used
+  background-color: $bgcolor;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+}
+
+button { // nesting used
+  @include button-style;
+
+  &:hover {
+    background-color: transparentize($bgcolor, 0.2); // color function used
+  }
+
+  &.clicked {
+    background-color: $clickcolor;
+  }
+
+  &.even {
+    background-color: $evenColor;
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="lesson.css">
+</head>
+<body>
+
+<button id="ten" type="button" onclick="generateRandomNumber(10)">1-10</button>
+<button id="hun" type="button" onclick="generateRandomNumber(100)">1-100</button>
+<button id="thou" type="button" onclick="generateRandomNumber(1000)">1-1000</button>
+<button id="tethou" type="button" onclick="generateRandomNumber(10000)">1-10000</button>
+
+<div id="results"></div>
+
+<script>
+  function generateRandomNumber(max) {
+    var randomNumber = Math.floor(Math.random() * max) + 1;
+    console.log(randomNumber);
+    document.getElementById('results').innerText = randomNumber;
+
+    var button = document.getElementById(max);
+        if (randomNumber % 2 === 0) {
+            button.classList.add('even');
+          } else {
+            button.classList.remove('even');
+        }
+}
+  
+</script>
+
+</body>
+</html>
