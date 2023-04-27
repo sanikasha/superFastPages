@@ -4,24 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Page 3 of 5 for Sanika’s Blog | Sanika’s fastpage for APCSP and other high school organization!</title>
+<title>SASS Lesson | Sanika’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Sanika’s Blog" />
+<meta property="og:title" content="SASS Lesson" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Sanika’s fastpage for APCSP and other high school organization!" />
-<meta property="og:description" content="Sanika’s fastpage for APCSP and other high school organization!" />
-<link rel="canonical" href="https://sanikasha.github.io/superFastPages/page3/" />
-<meta property="og:url" content="https://sanikasha.github.io/superFastPages/page3/" />
+<meta name="description" content="&lt;!DOCTYPE html&gt;" />
+<meta property="og:description" content="&lt;!DOCTYPE html&gt;" />
+<link rel="canonical" href="https://sanikasha.github.io/superFastPages/2023/04/26/SASS.html" />
+<meta property="og:url" content="https://sanikasha.github.io/superFastPages/2023/04/26/SASS.html" />
 <meta property="og:site_name" content="Sanika’s Blog" />
-<meta property="og:image" content="https://sanikasha.github.io/superFastPages/images/logo.png" />
-<meta property="og:type" content="website" />
-<link rel="prev" href="https://sanikasha.github.io/superFastPages/page2/" />
-<link rel="next" href="https://sanikasha.github.io/superFastPages/page4/" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://sanikasha.github.io/superFastPages/images/logo.png" />
-<meta property="twitter:title" content="Sanika’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-26T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SASS Lesson" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Sanika’s fastpage for APCSP and other high school organization!","headline":"Sanika’s Blog","image":"https://sanikasha.github.io/superFastPages/images/logo.png","url":"https://sanikasha.github.io/superFastPages/page3/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-26T00:00:00-05:00","datePublished":"2023-04-26T00:00:00-05:00","description":"&lt;!DOCTYPE html&gt;","headline":"SASS Lesson","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/2023/04/26/SASS.html"},"url":"https://sanikasha.github.io/superFastPages/2023/04/26/SASS.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/superFastPages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sanikasha.github.io/superFastPages/feed.xml" title="Sanika's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/superFastPages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,115 +70,39 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p>Welcome to Sanika Shahapurkar’s AP Computer Science Principles fastpage!</p>
+        <p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head>
+  <link rel="stylesheet" href="lesson.css" />
+</head>
+<body>
 
-<p><img src="/superFastPages/images1/sanikafastpagehome.jpg" alt="" /></p>
+<button id="ten" type="button" onclick="generateRandomNumber(10)">1-10</button>
+<button id="hun" type="button" onclick="generateRandomNumber(100)">1-100</button>
+<button id="thou" type="button" onclick="generateRandomNumber(1000)">1-1000</button>
+<button id="tethou" type="button" onclick="generateRandomNumber(10000)">1-10000</button>
 
-<h1 id="posts">Posts</h1>
+<div id="results"></div>
 
+<script>
+  function generateRandomNumber(max) {
+    var randomNumber = Math.floor(Math.random() * max) + 1;
+    console.log(randomNumber);
+    document.getElementById('results').innerText = randomNumber;
 
-
+    var button = document.getElementById(max);
+        if (randomNumber % 2 === 0) {
+            button.classList.add('even');
+          } else {
+            button.classList.remove('even');
+        }
+}
   
+</script>
 
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
+</body>
+</html>
 
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
-
- 
-  
-
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/superFastPages/create%20performance%20task/2023/01/09/PerformanceTaskGrading2.html">
-    Performance Task Scoring 2
-    </a>
-</h3><p class="post-meta">Jan 9, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/create%20performance%20task/2023/01/04/PerformanceTaskGrading-copy.html">
-    Performance Task Scoring 1
-    </a>
-</h3><p class="post-meta">Jan 4, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/12/17/Lesson1718.html">
-    Lesson 17/18 Hacks
-    </a>
-</h3><p class="post-meta">Dec 17, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/12/13/Lesson1213.html">
-    Lesson 12/13 Hacks
-    </a>
-</h3><p class="post-meta">Dec 13, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/12/06/Lesson8.html">
-    Lesson 8/10 Quiz Correction and JavaScript Analysis
-    </a>
-</h3><p class="post-meta">Dec 6, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/12/06/Lesson.html">
-    Lesson 8/10 Hacks
-    </a>
-</h3><p class="post-meta">Dec 6, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/12/02/Lesson-Notes.html">
-    Lesson Notes
-    </a>
-</h3><p class="post-meta">Dec 2, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/11/28/assignment.html">
-    3.5-3.7 Hacks
-    </a>
-</h3><p class="post-meta">Nov 28, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/11/17/Hacks.html">
-    Lesson 3/4 Hacks
-    </a>
-</h3><p class="post-meta">Nov 17, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2022/11/16/3.2dailyvideo2.html">
-    Lesson 1/2 Hacks
-    </a>
-</h3><p class="post-meta">Nov 16, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/ssjn/2022/11/04/NATM-Blog.html">
-    Night at The Museum Blog
-    </a>
-</h3><p class="post-meta">Nov 4, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/week%207/2022/10/10/BurgerAPI.html">
-    API Burger (formatted)
-    </a>
-</h3><p class="post-meta">Oct 10, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2022/10/10/BurgerAPI-jvsc-fa8558d5-9305-41ca-86d5-bb432b35e2b588a10683-7e9a-4a42-aa4f-61ded704af3e.html">
-    Title
-    </a>
-</h3><p class="post-meta">Oct 10, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/week%207/2022/10/10/APIspotify.html">
-    API Spotify
-    </a>
-</h3><p class="post-meta">Oct 10, 2022</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/week%207/2022/10/07/APIGroup.html">
-    API Genius Lyrics
-    </a>
-</h3><p class="post-meta">Oct 7, 2022</p>
-</li></ul>
-
-    
-      <div class="pager">
-        <ul class="pagination">
-          <li><a href="/superFastPages/page2/" class="previous-page">2</a></li>
-          <li><div class="current-page">3</div></li>
-          <li><a href="/superFastPages/page4/" class="next-page">4</a></li>
-        </ul>
-      </div></div>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/superFastPages/"></data>
