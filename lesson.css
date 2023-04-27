@@ -1,0 +1,15 @@
+button {
+  background-color: rgb(42, 184, 40);
+  padding: 10px;
+  border: none;
+  margin: 5px;
+}
+button:hover {
+  background-color: rgba(42, 184, 40, 0.8);
+}
+button.clicked {
+  background-color: #c66bc7;
+}
+button.even {
+  background-color: blue;
+}/*# sourceMappingURL=lesson.css.map */
