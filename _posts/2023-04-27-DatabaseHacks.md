@@ -311,7 +311,8 @@ layout: notebook
         <span class="n">l2</span> <span class="o">=</span> <span class="n">Leaderboard</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s2">&quot;bobby&quot;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s2">&quot;appley&quot;</span><span class="p">,</span> <span class="n">pointsEasy</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">pointsMedium</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">pointsHard</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
         <span class="n">l3</span> <span class="o">=</span> <span class="n">Leaderboard</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s2">&quot;bobbert&quot;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s2">&quot;appled&quot;</span><span class="p">,</span> <span class="n">pointsEasy</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">pointsMedium</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">pointsHard</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
         <span class="n">l4</span> <span class="o">=</span> <span class="n">Leaderboard</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s2">&quot;bobruth&quot;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s2">&quot;appler&quot;</span><span class="p">,</span> <span class="n">pointsEasy</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">pointsMedium</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">pointsHard</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
-        <span class="n">leaderboards</span> <span class="o">=</span> <span class="p">[</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">,</span> <span class="n">l3</span><span class="p">,</span> <span class="n">l4</span><span class="p">]</span>
+        <span class="n">l5</span> <span class="o">=</span> <span class="n">Leaderboard</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s2">&quot;sanikas&quot;</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s2">&quot;sanisha&quot;</span><span class="p">,</span> <span class="n">pointsEasy</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">pointsMedium</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">pointsHard</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+        <span class="n">leaderboards</span> <span class="o">=</span> <span class="p">[</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">,</span> <span class="n">l3</span><span class="p">,</span> <span class="n">l4</span><span class="p">,</span> <span class="n">l5</span><span class="p">]</span>
 
         <span class="sd">&quot;&quot;&quot;Builds sample user/note(s) data&quot;&quot;&quot;</span>
         <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">leaderboards</span><span class="p">:</span>
@@ -329,6 +330,24 @@ layout: notebook
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Records exist uid bob, or error.
+Records exist uid bobby, or error.
+Records exist uid bobbert, or error.
+Records exist uid bobruth, or error.
+Created new uid sanikas
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -579,7 +598,7 @@ layout: notebook
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Backend:">Backend:<a class="anchor-link" href="#Backend:"> </a></h3><ul>
 <li>The backend creates endpoints that are used to edit the properties of the database constructed by the model.</li>
-<li><code>____</code>, <code>____</code>, <code>____</code>, and <code>____</code> methods are used in order to define HTTP endpoints in the API.<ul>
+<li><code>GET</code>, <code>POST</code>, <code>PUT</code>, and <code>DELETE</code> methods are used in order to define HTTP endpoints in the API.<ul>
 <li>These endpoints are based on requests that can be made to <em>__</em> the database.</li>
 <li>Variables defined in the <em>__</em> file are used to call data from the database in order to be manipulated.</li>
 </ul>
@@ -593,15 +612,15 @@ layout: notebook
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Methods-in-Backend-Example">Methods in Backend Example<a class="anchor-link" href="#Methods-in-Backend-Example"> </a></h3><ul>
 <li>Modules are being imported with specified classes which are used later in the program.<ul>
-<li><code>Blueprint</code>: used to organize <em>__</em> and functions</li>
-<li><code>request</code>: used to access data sent to the Flask app. through the <em>__</em> request</li>
+<li><code>Blueprint</code>: used to organize routes and functions</li>
+<li><code>request</code>: used to access data sent to the Flask app. through the http request</li>
 <li><code>Api</code>: creates a Flask instance that handles requests</li>
 <li><code>Resource</code>: this allows for the definition of custom HTTP requests</li>
-<li><code>reqparse</code>: used to <em>__</em> (sort and search) and validate data that is requested</li>
+<li><code>reqparse</code>: used to parse (sort and search) and validate data that is requested</li>
 </ul>
 </li>
-<li>The blueprint and api are then defined as variables and are used to store any future <em>__</em> that is requested.</li>
-<li>Some preliminary functions, such as <code>find_by_username</code>, are created to be used later in the API code, allowing for <em>__</em> code.<ul>
+<li>The blueprint and api are then defined as variables and are used to store any future data that is requested.</li>
+<li>Some preliminary functions, such as <code>find_by_username</code>, are created to be used later in the API code, allowing for API code.<ul>
 <li>In this case, these functions are used to search through the database to find specific usernames.</li>
 </ul>
 </li>
@@ -640,11 +659,11 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="GET-Method">GET Method<a class="anchor-link" href="#GET-Method"> </a></h4><ul>
-<li>This method is used to <em>__</em> specific data points from the database by searching through the usernames.</li>
+<li>This method is used to fetch specific data points from the database by searching through the usernames.</li>
 <li>This will be different for each type of database being made, however the general format stays the same.<ul>
-<li>Since this is a text database, to pull specific information from the database, the API will <em>__</em> through the data using the username, which is unique.</li>
+<li>Since this is a text database, to pull specific information from the database, the API will query through the data using the username, which is unique.</li>
 <li>The function defined previously, <code>find_by_username()</code>, is used to search through the database and pull the specific data point that is being searched.</li>
-<li>If the user exists, the data of that user will be returned, being sent to the <em>__</em> of the program.</li>
+<li>If the user exists, the data of that user will be returned, being sent to the frontend of the program.</li>
 <li>If a user isn't found, an error will be returned that the user does not exist.
 <br>
 <br></li>
@@ -686,7 +705,7 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="POST-Method">POST Method<a class="anchor-link" href="#POST-Method"> </a></h4><ul>
-<li>This method is used to <em>__</em> a specific piece of information in the database based on searching by usernames.</li>
+<li>This method is used to add a specific piece of information in the database based on searching by usernames.</li>
 <li>This is again different for each database that is made, however the general structure stays the same.<ul>
 <li>In this example, a parser is being used to extract data from an incoming <em>__</em>. In this case, the <code>RequestParser</code> class is used from the Flask module.<ul>
 <li>All required arguments are added to the parser, specifying what type of data it is.</li>
@@ -745,9 +764,9 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="PUT-Method">PUT Method<a class="anchor-link" href="#PUT-Method"> </a></h4><ul>
-<li>This method is used to <em>__</em> a specific piece of information in the database based on searching by usernames.</li>
+<li>This method is used to update a specific piece of information in the database based on searching by usernames.</li>
 <li>For each data base that is made, there will be different specific but the overall structure stays the same.<ul>
-<li>First, the <code>username</code> variable is defined, which <em>__</em> the requested username and sets it as a variable that will be used later to edit a specific dataset.</li>
+<li>First, the <code>username</code> variable is defined, which retrieves the requested username and sets it as a variable that will be used later to edit a specific dataset.</li>
 <li>The function <code>find_by_username()</code> is again used to search through the data to look for the username requested. This is set to a variable to be used later.</li>
 <li>If the username is found in the database, the rest of the dataset is updated with the new <em>__</em> requested. This is updated into the database.</li>
 <li>If there is an error found with the data requested of it the user isn't found, an error is returned.</li>
@@ -799,7 +818,7 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="DELETE-Method">DELETE Method<a class="anchor-link" href="#DELETE-Method"> </a></h4><ul>
-<li>This method is used to <em>__</em> a specific information from the database, again searching by username.</li>
+<li>This method is used to delete a specific information from the database, again searching by username.</li>
 <li>The overall structure stays the same between different databases, but the specific <em>__</em> will need to be changed to personalize the database.<ul>
 <li>A variable for the username is created in order to search for for the user name requested later in the code with the function <code>find_by_username()</code>.</li>
 <li>If the user is found, the user is deleted, along with that user's data and the change is saved to the database.</li>
@@ -850,9 +869,9 @@ layout: notebook
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Displaying-the-Full-Database">Displaying the Full Database<a class="anchor-link" href="#Displaying-the-Full-Database"> </a></h4><ul>
-<li>Another class is created in order to <em>__</em> the entire database at once and also to delete the entire database if necessary.</li>
+<li>Another class is created in order to display the entire database at once and also to delete the entire database if necessary.</li>
 <li>This uses the same functions as before to GET and DELETE the data, however it is modified slightly to look through the entire database abd display or delete all data points.</li>
-<li>An example of where this would be useful is to create a table of data in the <em>__</em>.</li>
+<li>An example of where this would be useful is to create a table of data in the frontend.</li>
 </ul>
 
 </div>
