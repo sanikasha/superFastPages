@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      7 min read
     
 </span></p>
 
@@ -132,6 +132,8 @@ window.onload = wrap_img;
   <li>Inspect Variables</li>
 </ul>
 
+<p><img src="/superFastPages/images1/compprog.png" alt="Defs"></p>
+
 <p><img src="/superFastPages/images/cpu.jpeg" alt="Computer Hardware"></p>
 
 <h3 id="the-internet">
@@ -155,31 +157,41 @@ window.onload = wrap_img;
   </li>
   <li>Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use <code class="language-plaintext highlighter-rouge">traceroute</code> and <code class="language-plaintext highlighter-rouge">ping</code> commands from Linux Terminal.
     <ul>
-      <li>Path</li>
-      <li>Route</li>
-      <li>Computer System</li>
-      <li>Computer Device</li>
-      <li>Bandwidth</li>
-      <li>Computer Network</li>
+      <li>Path a</li>
+      <li>Route e</li>
+      <li>Computer System b</li>
+      <li>Computer Device c</li>
+      <li>Bandwidth d</li>
+      <li>Computer Network f</li>
     </ul>
   </li>
 </ul>
+
+<p><img src="/superFastPages/images1/compprog.png" alt="Defs"></p>
 
 <blockquote>
   <p>Watch/review College Board Daily Video 4.1.2</p>
 </blockquote>
 
 <ul>
-  <li>
-    <p>Complete True of False Questions</p>
-  </li>
+  <li>Complete True of False Questions</li>
+</ul>
+
+<ol>
+  <li>T</li>
+  <li>F</li>
+  <li>F</li>
+  <li>T</li>
+  <li>F</li>
+  <li>F</li>
+  <li>T</li>
+</ol>
+
+<ul>
   <li>Essential Knowledge
     <ul>
-      <li>The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
-  True</li>
-      <li>
-        <p>Access to the internet depends on the ability to connect a computing device to an internet connected device.</p>
-      </li>
+      <li>The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.</li>
+      <li>Access to the internet depends on the ability to connect a computing device to an internet connected device.</li>
       <li>A protocol is an agreed-upon set of rules that specify the behavior of a system.</li>
       <li>The protocols used in the internet are open, which allows users to easily connect additional computing devices to the internet.</li>
       <li>Routing on the internet is usually dynamic; it is not specified in advance</li>
@@ -196,6 +208,8 @@ window.onload = wrap_img;
   </li>
   <li>Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas</li>
 </ul>
+
+<p><img src="/superFastPages/images1/fulls.png" alt="Defs"></p>
 
 <p><img src="/superFastPages/images/fullstack.png" alt="Full Stack"></p>
 
@@ -235,6 +249,18 @@ window.onload = wrap_img;
   <li>Complete the network activity, summarize your understanding of fault tolerance.</li>
 </ul>
 
+<p>Video 1:</p>
+
+<p>Yes, the network is fault tolerant as there are several paths for each destination.</p>
+
+<p>Video 2:</p>
+
+<p>Multiple paths to get one thing done, to account for error in one path.</p>
+
+<p>Practice:
+C
+A</p>
+
 <h3 id="parallel-and-distributed-computing">
 <a class="anchor" href="#parallel-and-distributed-computing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parallel and Distributed Computing</h3>
 <blockquote>
@@ -242,13 +268,17 @@ window.onload = wrap_img;
 </blockquote>
 
 <ul>
-  <li>
-    <p>What is naturally Distributed in Frontend/Backend archeticture?</p>
-  </li>
-  <li>
-    <p>Analyze this command in Docker: <code class="language-plaintext highlighter-rouge">ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"</code>.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an <a href="https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7">article</a></p>
-  </li>
+  <li>What is naturally Distributed in Frontend/Backend archeticture?</li>
 </ul>
+
+<p>Backend is distributed because different functions can be performed on different servers. While frontend on the other hand, is accessed through only the user’s device. This might make it less fault tolerant than managing backend data.</p>
+
+<ul>
+  <li>Analyze this command in Docker: <code class="language-plaintext highlighter-rouge">ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"</code>.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an <a href="https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7">article</a>
+</li>
+</ul>
+
+<p>While not parallel as the article distinguishes, the server that runs python/gunicorn is cocurrent. This means that 2 or more task can be performed at the same time though only one is being worked on while others are paused.</p>
 
 <blockquote>
   <p>Last week we discussed parallel computing on local machine.  There are many options.  Here is something to get parallel computing work with a tool called Ray.</p>
@@ -256,6 +286,8 @@ window.onload = wrap_img;
     <li>Review this <a href="https://www.anyscale.com/blog/writing-your-first-distributed-python-application-with-ray">article</a>…  Can you get parallel code on images to work more effectively?  I have not tried Ray.</li>
   </ul>
 </blockquote>
+
+<p>It seems as though Ray makes parallel functions more efficient through simplification. It scales the applications without forceing you to rewrite them completely.</p>
 
 <ul>
   <li>Code example from ChatGPT using squares.  This might be more interesting if nums we generated to be a lot bigger.</li>
