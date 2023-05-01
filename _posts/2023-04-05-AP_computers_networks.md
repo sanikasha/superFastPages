@@ -61,7 +61,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Bandwidth d
     - Computer Network f
 
-![Defs]({{site.baseurl}}/images1/compprog.png)
+
 
 > Watch/review College Board Daily Video 4.1.2
 
