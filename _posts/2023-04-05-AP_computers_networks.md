@@ -34,6 +34,8 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 - Inspect Running Code
 - Inspect Variables
 
+![Defs]({{site.baseurl}}/images1/compprog.png)
+
 
 ![Computer Hardware]({{site.baseurl}}/images/cpu.jpeg)
 
@@ -52,22 +54,30 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - Bandwidth is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
-    - Path 
-    - Route
-    - Computer System
-    - Computer Device
-    - Bandwidth
-    - Computer Network
+    - Path a
+    - Route e
+    - Computer System b
+    - Computer Device c
+    - Bandwidth d
+    - Computer Network f
+
+![Defs]({{site.baseurl}}/images1/compprog.png)
 
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
 
+1. T
+2. F
+3. F
+4. T
+5. F
+6. F
+7. T
+
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
-    True
     - Access to the internet depends on the ability to connect a computing device to an internet connected device.
-    
     - A protocol is an agreed-upon set of rules that specify the behavior of a system.
     - The protocols used in the internet are open, which allows users to easily connect additional computing devices to the internet.
     - Routing on the internet is usually dynamic; it is not specified in advance
@@ -82,6 +92,8 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - The world wide web uses the internet
 
 - Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas
+
+![Defs]({{site.baseurl}}/images1/fulls.png)
 
 ![Full Stack]({{site.baseurl}}/images/fullstack.png)
 
@@ -117,17 +129,36 @@ The "network" layer is responsible for ***routing data packets between networks*
 
 - Complete the network activity, summarize your understanding of fault tolerance.
 
+Video 1:
+
+Yes, the network is fault tolerant as there are several paths for each destination.
+
+
+Video 2:
+
+Multiple paths to get one thing done, to account for error in one path. 
+
+Practice:
+C
+A
+
 
 ### Parallel and Distributed Computing
 > Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
 
 - What is naturally Distributed in Frontend/Backend archeticture?  
 
+Backend is distributed because different functions can be performed on different servers. While frontend on the other hand, is accessed through only the user's device. This might make it less fault tolerant than managing backend data.
+
 - Analyze this command in Docker: ```ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"```.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an [article](https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7)
 
 
+While not parallel as the article distinguishes, the server that runs python/gunicorn is cocurrent. This means that 2 or more task can be performed at the same time though only one is being worked on while others are paused. 
+
 > Last week we discussed parallel computing on local machine.  There are many options.  Here is something to get parallel computing work with a tool called Ray.
 - Review this [article](https://www.anyscale.com/blog/writing-your-first-distributed-python-application-with-ray)...  Can you get parallel code on images to work more effectively?  I have not tried Ray.
+
+It seems as though Ray makes parallel functions more efficient through simplification. It scales the applications without forceing you to rewrite them completely.
 
 - Code example from ChatGPT using squares.  This might be more interesting if nums we generated to be a lot bigger.
 
