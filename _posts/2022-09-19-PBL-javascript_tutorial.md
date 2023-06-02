@@ -183,10 +183,10 @@ layout: notebook
 
 
 
-<div id="bec774de-8ffc-4ad0-8c62-797aee3fa86a"></div>
+<div id="5a94b3fd-98e9-4b70-ba0b-8246741ac8f1"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#bec774de-8ffc-4ad0-8c62-797aee3fa86a');
+var element = $('#5a94b3fd-98e9-4b70-ba0b-8246741ac8f1');
 console.log("JavaScript/Jupyter Output Intro");
 
 // Browser Console output; debugging or tracing
@@ -259,10 +259,10 @@ element.append('<br><b>Hello World Again!');
 
 
 
-<div id="934ed527-34e6-43f8-a31d-e7002f9c872b"></div>
+<div id="b32feb62-ab39-4dac-8e27-d1efc6575e28"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#934ed527-34e6-43f8-a31d-e7002f9c872b');
+var element = $('#b32feb62-ab39-4dac-8e27-d1efc6575e28');
 console.log("Variable Definition");
 
 var msg = "Hello, World!";
@@ -344,10 +344,10 @@ element.text(msg);
 
 
 
-<div id="96ef9158-0886-40ef-8552-77b5b09ae82f"></div>
+<div id="c7f054b3-514c-4b28-b86c-50f95566049f"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#96ef9158-0886-40ef-8552-77b5b09ae82f');
+var element = $('#c7f054b3-514c-4b28-b86c-50f95566049f');
 console.log("Function Definition");
 
 /* Function: logIt
@@ -455,10 +455,10 @@ logIt(msg + "  " + classOf); // concatenation of strings
 
 
 
-<div id="8d04db89-e93e-4a44-856e-bfed4b95ed5b"></div>
+<div id="d3677114-4ffc-4818-8c40-626666e98512"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#8d04db89-e93e-4a44-856e-bfed4b95ed5b');
+var element = $('#d3677114-4ffc-4818-8c40-626666e98512');
 console.log("Examine Data Types");
 
 // Function to add typeof to output
@@ -558,7 +558,7 @@ logIt(JSON.stringify(person));  //method used to convert this object into readab
             <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;jsonText&quot;</span><span class="p">&gt;</span>{&quot;classroom&quot;:[{&quot;type&quot;:&quot;object&quot;,&quot;name&quot;:&quot;sample&quot;,&quot;ghID&quot;:&quot;sample&quot;,&quot;classOf&quot;:2000,&quot;role&quot;:&quot;sample&quot;}]}<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">td</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;jsonText&quot;</span><span class="p">&gt;</span>{&quot;playlist&quot;:[{&quot;type&quot;:&quot;object&quot;,&quot;name&quot;:&quot;sample&quot;,&quot;artists&quot;:&quot;sample&quot;}]}<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
                 <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
@@ -605,7 +605,7 @@ logIt(JSON.stringify(person));  //method used to convert this object into readab
             </thead>
             <tbody>
                 <tr>
-                    <td id="jsonText">{"classroom":[{"type":"object","name":"sample","ghID":"sample","classOf":2000,"role":"sample"}]}</td>
+                    <td id="jsonText">{"playlist":[{"type":"object","name":"sample","artists":"sample"}]}</td>
                 </tr>
             </tbody>
         </table>
@@ -613,164 +613,6 @@ logIt(JSON.stringify(person));  //method used to convert this object into readab
     </body>
 </html>
 
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%js</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Person objects&quot;</span><span class="p">);</span>
-
-<span class="cm">/* class: Person</span>
-<span class="cm"> * Description: A collection of Person data</span>
-<span class="cm">*/</span>
-<span class="kr">class</span> <span class="nx">Person</span> <span class="p">{</span>
-  <span class="cm">/* method: constructor</span>
-<span class="cm">   * parameters: name, ghID - GitHub ID, classOf - Graduation Class </span>
-<span class="cm">   * description: returns object when &quot;new Person()&quot; is called with matching parameters</span>
-<span class="cm">   * assignment: this.name, this.ghID, ... are properties retained in the returned object</span>
-<span class="cm">   * default: role uses a default property, it is set to &quot;Student&quot;</span>
-<span class="cm">  */</span>
-  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="p">,</span> <span class="nx">role</span><span class="o">=</span><span class="s2">&quot;Student&quot;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">=</span> <span class="nx">ghID</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span> <span class="o">=</span> <span class="nx">classOf</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="cm">/* method: setter</span>
-<span class="cm">   * parameters: role - role in classroom</span>
-<span class="cm">   * description: this.role is updated from default value to value contained in role parameter</span>
-<span class="cm">  */</span>
-  <span class="nx">setRole</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
-  <span class="p">}</span>
-  
-  <span class="cm">/* method: getter</span>
-<span class="cm">   * description: turns properties of object into JSON object</span>
-<span class="cm">   * return value: JSON object</span>
-<span class="cm">  */</span>
-  <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">type</span><span class="o">:</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
-    <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
-    <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="cm">/* method: logIT</span>
-<span class="cm">   * description: &quot;this&quot; Person object is logged to console</span>
-<span class="cm">  */</span>
-  <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">//Person Object</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-    <span class="c1">//Log to Jupter</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Person object in JSON &lt;br&gt;&quot;</span><span class="p">);</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>  
-    <span class="c1">//alert(this.getJSON());</span>
-  <span class="p">}</span>
-    
-<span class="p">}</span>
-
-<span class="c1">// make a new Person Object</span>
-<span class="kr">const</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="mf">1977</span><span class="p">);</span> <span class="c1">// object type is easy to work with in JavaScript</span>
-<span class="c1">// update role to Teacher</span>
-<span class="nx">teacher</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span> <span class="c1">// set the role</span>
-<span class="nx">teacher</span><span class="p">.</span><span class="nx">logIt</span><span class="p">();</span>  <span class="c1">// log to console</span>
-
-<span class="c1">// make a new Person Object</span>
-<span class="kr">const</span> <span class="nx">student</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Jane Doe&quot;</span><span class="p">,</span> <span class="s2">&quot;jane&quot;</span><span class="p">,</span> <span class="mf">2007</span><span class="p">);</span> <span class="c1">// object type is easy to work with in JavaScript</span>
-<span class="nx">student</span><span class="p">.</span><span class="nx">logIt</span><span class="p">();</span> <span class="c1">// log to console</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-
-<div id="98082980-ddb7-4480-a846-eb423cc190f3"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#98082980-ddb7-4480-a846-eb423cc190f3');
-console.log("Person objects");
-
-/* class: Person
- * Description: A collection of Person data
-*/
-class Person {
-  /* method: constructor
-   * parameters: name, ghID - GitHub ID, classOf - Graduation Class 
-   * description: returns object when "new Person()" is called with matching parameters
-   * assignment: this.name, this.ghID, ... are properties retained in the returned object
-   * default: role uses a default property, it is set to "Student"
-  */
-  constructor(name, ghID, classOf, role="Student") {
-    this.name = name;
-    this.ghID = ghID;
-    this.classOf = classOf;
-    this.role = role;
-  }
-
-  /* method: setter
-   * parameters: role - role in classroom
-   * description: this.role is updated from default value to value contained in role parameter
-  */
-  setRole(role) {
-    this.role = role;
-  }
-  
-  /* method: getter
-   * description: turns properties of object into JSON object
-   * return value: JSON object
-  */
-  getJSON() {
-    const obj = {type: typeof this, name: this.name, ghID: this.ghID, classOf: this.classOf, role: this.role};
-    const json = JSON.stringify(obj);
-    return json;
-  }
-
-  /* method: logIT
-   * description: "this" Person object is logged to console
-  */
-  logIt() {
-    //Person Object
-    console.info(this);
-    //Log to Jupter
-    element.append("Person object in JSON <br>");
-    element.append(this.getJSON() + "<br>");  
-    //alert(this.getJSON());
-  }
-    
-}
-
-// make a new Person Object
-const teacher = new Person("Mr M", "jm1021", 1977); // object type is easy to work with in JavaScript
-// update role to Teacher
-teacher.setRole("Teacher"); // set the role
-teacher.logIt();  // log to console
-
-// make a new Person Object
-const student = new Person("Jane Doe", "jane", 2007); // object type is easy to work with in JavaScript
-student.logIt(); // log to console
-
-</script>
 </div>
 
 </div>
@@ -800,118 +642,58 @@ student.logIt(); // log to console
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%js</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Classroom object&quot;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Playlist object&quot;</span><span class="p">);</span>
 
-<span class="cm">/* class: Person</span>
-<span class="cm"> * Description: A collection of Person data</span>
-<span class="cm">*/</span>
-<span class="kr">class</span> <span class="nx">Person</span> <span class="p">{</span>
-  <span class="cm">/* method: constructor</span>
-<span class="cm">   * parameters: name, ghID - GitHub ID, classOf - Graduation Class </span>
-<span class="cm">   * description: returns object when &quot;new Person()&quot; is called with matching parameters</span>
-<span class="cm">   * assignment: this.name, this.ghID, ... are properties retained in the returned object</span>
-<span class="cm">   * default: this.role is a default property retained in object, it is set to &quot;Student&quot;</span>
-<span class="cm">  */</span>
-  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="p">,</span> <span class="nx">role</span><span class="o">=</span><span class="s2">&quot;Student&quot;</span><span class="p">)</span> <span class="p">{</span>
+<span class="kr">class</span> <span class="nx">Song</span> <span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">=</span> <span class="nx">ghID</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span> <span class="o">=</span> <span class="nx">classOf</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="o">=</span> <span class="nx">artist</span><span class="p">;</span>
   <span class="p">}</span>
 
-  <span class="cm">/* method: setter</span>
-<span class="cm">   * parameters: role - role in classroom</span>
-<span class="cm">   * description: this.role is updated from default value to value contained in role parameter</span>
-<span class="cm">  */</span>
-  <span class="nx">setRole</span><span class="p">(</span><span class="nx">role</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="nx">role</span><span class="p">;</span>
-  <span class="p">}</span>
-  
-  <span class="cm">/* method: getter</span>
-<span class="cm">   * description: turns properties of object into JSON object</span>
-<span class="cm">   * return value: JSON object</span>
-<span class="cm">  */</span>
   <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">type</span><span class="o">:</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">type</span><span class="o">:</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="p">};</span>
     <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
     <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
   <span class="p">}</span>
 
-  <span class="cm">/* method: logIT</span>
-<span class="cm">   * description: &quot;this&quot; Person object is logged to console</span>
-<span class="cm">  */</span>
   <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">//Person Object</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-    <span class="c1">//Log to Jupter</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Person json &lt;br&gt;&quot;</span><span class="p">);</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>  
-    <span class="c1">//alert(this.getJSON());</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Song JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
   <span class="p">}</span>
-    
 <span class="p">}</span>
 
-<span class="cm">/* class: Classroom</span>
-<span class="cm"> * Description: A collection of Person objects</span>
-<span class="cm">*/</span>
-<span class="kr">class</span> <span class="nx">Classroom</span> <span class="p">{</span>
-  <span class="cm">/* method: constructor</span>
-<span class="cm">   * parameters: teacher - a Person object, students - an array of Person objects</span>
-<span class="cm">   * description: returns object when &quot;new Classroom()&quot; is called containing properties and methods of a Classroom</span>
-<span class="cm">   * assignment: this.classroom, this.teacher, ... are properties retained in the returned object</span>
-<span class="cm">  */</span>
-  <span class="nx">constructor</span><span class="p">(</span><span class="nx">teacher</span><span class="p">,</span> <span class="nx">students</span><span class="p">)</span> <span class="p">{</span>
-    <span class="cm">/* spread: this.classroom contains Teacher object and all Student objects</span>
-<span class="cm">     * map: this.json contains of map of all persons to JSON</span>
-<span class="cm">    */</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">teacher</span> <span class="o">=</span> <span class="nx">teacher</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">students</span> <span class="o">=</span> <span class="nx">students</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">classroom</span> <span class="o">=</span> <span class="p">[</span><span class="nx">teacher</span><span class="p">,</span> <span class="p">...</span><span class="nx">students</span><span class="p">];</span> <span class="c1">// ... spread option</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">json</span> <span class="o">=</span> <span class="s1">&#39;{&quot;classroom&quot;:[&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">classroom</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">person</span> <span class="p">=&gt;</span> <span class="nx">person</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">())</span> <span class="o">+</span> <span class="s1">&#39;]}&#39;</span><span class="p">;</span>
+<span class="kr">class</span> <span class="nx">Playlist</span> <span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">songs</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">songs</span> <span class="o">=</span> <span class="nx">songs</span><span class="p">;</span>
   <span class="p">}</span>
 
-  <span class="cm">/* method: logIT</span>
-<span class="cm">   * description: &quot;this&quot; Classroom object is logged to console</span>
-<span class="cm">  */</span>
+  <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">songArray</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">songs</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">song</span> <span class="p">=&gt;</span> <span class="nx">song</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
+    <span class="kr">const</span> <span class="nx">jsonString</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span> <span class="nx">playlist</span><span class="o">:</span> <span class="nx">songArray</span> <span class="p">});</span>
+    <span class="k">return</span> <span class="nx">jsonString</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\\+/g</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+  <span class="p">}</span>
+
   <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">//Classroom object</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-    
-    <span class="c1">//Classroom json</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Classroom object in JSON&lt;br&gt;&quot;</span><span class="p">);</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">json</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>  
-    <span class="c1">//alert(this.json);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Playlist JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="cm">/* function: constructCompSciClassroom</span>
-<span class="cm"> * Description: Create data for Classroom and Person objects</span>
-<span class="cm"> * Returns: A Classroom Object</span>
-<span class="cm">*/</span>
-<span class="kd">function</span> <span class="nx">constructCompSciClassroom</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// define a Teacher object</span>
-    <span class="kr">const</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="mf">1977</span><span class="p">,</span> <span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>  <span class="c1">// optional 4th parameter</span>
+<span class="kd">function</span> <span class="nx">constructPlaylist</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">songs</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Shake It Off&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Taylor Swift, Max Martin, Shellback&quot;</span><span class="p">]),</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Getaway Car&quot;</span><span class="p">,</span> <span class="s2">&quot;Taylor Swift, Jack Antonoff&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Boys Don&#39;t Cry&quot;</span><span class="p">,</span> <span class="s2">&quot;Robert Smith, Lol Tolhurst, Michael Dempsey&quot;</span><span class="p">)</span>
+  <span class="p">];</span>
 
-    <span class="c1">// define a student Array of Person objects</span>
-    <span class="kr">const</span> <span class="nx">students</span> <span class="o">=</span> <span class="p">[</span> 
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Anthony&quot;</span><span class="p">,</span> <span class="s2">&quot;tonyhieu&quot;</span><span class="p">,</span> <span class="mf">2022</span><span class="p">),</span>
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Bria&quot;</span><span class="p">,</span> <span class="s2">&quot;B-G101&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Allie&quot;</span><span class="p">,</span> <span class="s2">&quot;xiaoa0&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Tigran&quot;</span><span class="p">,</span> <span class="s2">&quot;Tigran7&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Rebecca&quot;</span><span class="p">,</span> <span class="s2">&quot;Rebecca-123&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-        <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Vidhi&quot;</span><span class="p">,</span> <span class="s2">&quot;VidhiKulkarni&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">)</span>
-    <span class="p">];</span>
-
-    <span class="c1">// make a CompSci classroom from formerly defined teacher and student objects</span>
-    <span class="k">return</span> <span class="k">new</span> <span class="nx">Classroom</span><span class="p">(</span><span class="nx">teacher</span><span class="p">,</span> <span class="nx">students</span><span class="p">);</span>  <span class="c1">// returns object</span>
+  <span class="k">return</span> <span class="k">new</span> <span class="nx">Playlist</span><span class="p">(</span><span class="nx">songs</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="c1">// assigns &quot;compsci&quot; to the object returned by &quot;constructCompSciClassroom()&quot; function</span>
-<span class="kr">const</span> <span class="nx">compsci</span> <span class="o">=</span> <span class="nx">constructCompSciClassroom</span><span class="p">();</span>
-<span class="c1">// output of Objects and JSON in CompSci classroom</span>
-<span class="nx">compsci</span><span class="p">.</span><span class="nx">logIt</span><span class="p">();</span>
-<span class="c1">// enable sharing of data across jupyter cells</span>
-<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#jsonText&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">compsci</span><span class="p">.</span><span class="nx">json</span><span class="p">);</span>  <span class="c1">// posts/embeds/writes compsci.json to HTML DOM element called jsonText</span>
+<span class="kr">const</span> <span class="nx">playlist</span> <span class="o">=</span> <span class="nx">constructPlaylist</span><span class="p">();</span>
+<span class="nx">playlist</span><span class="p">.</span><span class="nx">logIt</span><span class="p">();</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#jsonText&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">playlist</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
 </pre></div>
 
     </div>
@@ -926,122 +708,62 @@ student.logIt(); // log to console
 
 
 
-<div id="ad14b36f-8cd7-4fcf-bab7-3ef7edeb59aa"></div>
+<div id="70e4a22d-de09-4783-b548-692ebc63db1f"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#ad14b36f-8cd7-4fcf-bab7-3ef7edeb59aa');
-console.log("Classroom object");
+var element = $('#70e4a22d-de09-4783-b548-692ebc63db1f');
+console.log("Playlist object");
 
-/* class: Person
- * Description: A collection of Person data
-*/
-class Person {
-  /* method: constructor
-   * parameters: name, ghID - GitHub ID, classOf - Graduation Class 
-   * description: returns object when "new Person()" is called with matching parameters
-   * assignment: this.name, this.ghID, ... are properties retained in the returned object
-   * default: this.role is a default property retained in object, it is set to "Student"
-  */
-  constructor(name, ghID, classOf, role="Student") {
+class Song {
+  constructor(name, artist) {
     this.name = name;
-    this.ghID = ghID;
-    this.classOf = classOf;
-    this.role = role;
+    this.artist = artist;
   }
 
-  /* method: setter
-   * parameters: role - role in classroom
-   * description: this.role is updated from default value to value contained in role parameter
-  */
-  setRole(role) {
-    this.role = role;
-  }
-  
-  /* method: getter
-   * description: turns properties of object into JSON object
-   * return value: JSON object
-  */
   getJSON() {
-    const obj = {type: typeof this, name: this.name, ghID: this.ghID, classOf: this.classOf, role: this.role};
+    const obj = { type: typeof this, name: this.name, artist: this.artist };
     const json = JSON.stringify(obj);
     return json;
   }
 
-  /* method: logIT
-   * description: "this" Person object is logged to console
-  */
   logIt() {
-    //Person Object
     console.info(this);
-    //Log to Jupter
-    element.append("Person json <br>");
-    element.append(this.getJSON() + "<br>");  
-    //alert(this.getJSON());
+    element.append("Song JSON: <br>");
+    element.append(this.getJSON() + "<br>");
   }
-    
 }
 
-/* class: Classroom
- * Description: A collection of Person objects
-*/
-class Classroom {
-  /* method: constructor
-   * parameters: teacher - a Person object, students - an array of Person objects
-   * description: returns object when "new Classroom()" is called containing properties and methods of a Classroom
-   * assignment: this.classroom, this.teacher, ... are properties retained in the returned object
-  */
-  constructor(teacher, students) {
-    /* spread: this.classroom contains Teacher object and all Student objects
-     * map: this.json contains of map of all persons to JSON
-    */
-    this.teacher = teacher;
-    this.students = students;
-    this.classroom = [teacher, ...students]; // ... spread option
-    this.json = '{"classroom":[' + this.classroom.map(person => person.getJSON()) + ']}';
+class Playlist {
+  constructor(songs) {
+    this.songs = songs;
   }
 
-  /* method: logIT
-   * description: "this" Classroom object is logged to console
-  */
+  getJSON() {
+    const songArray = this.songs.map(song => song.getJSON());
+    const jsonString = JSON.stringify({ playlist: songArray });
+    return jsonString.replace(/\\+/g, '');
+  }
+
   logIt() {
-    //Classroom object
-    console.log(this);
-    
-    //Classroom json
-    element.append("Classroom object in JSON<br>");
-    element.append(this.json + "<br>");  
-    //alert(this.json);
+    console.info(this);
+    element.append("Playlist JSON: <br>");
+    element.append(this.getJSON() + "<br>");
   }
 }
 
-/* function: constructCompSciClassroom
- * Description: Create data for Classroom and Person objects
- * Returns: A Classroom Object
-*/
-function constructCompSciClassroom() {
-    // define a Teacher object
-    const teacher = new Person("Mr M", "jm1021", 1977, "Teacher");  // optional 4th parameter
+function constructPlaylist() {
+  const songs = [
+    new Song("Shake It Off", ["Taylor Swift, Max Martin, Shellback"]),
+    new Song("Getaway Car", "Taylor Swift, Jack Antonoff"),
+    new Song("Boys Don't Cry", "Robert Smith, Lol Tolhurst, Michael Dempsey")
+  ];
 
-    // define a student Array of Person objects
-    const students = [ 
-        new Person("Anthony", "tonyhieu", 2022),
-        new Person("Bria", "B-G101", 2023),
-        new Person("Allie", "xiaoa0", 2023),
-        new Person("Tigran", "Tigran7", 2023),
-        new Person("Rebecca", "Rebecca-123", 2023),
-        new Person("Vidhi", "VidhiKulkarni", 2024)
-    ];
-
-    // make a CompSci classroom from formerly defined teacher and student objects
-    return new Classroom(teacher, students);  // returns object
+  return new Playlist(songs);
 }
 
-// assigns "compsci" to the object returned by "constructCompSciClassroom()" function
-const compsci = constructCompSciClassroom();
-// output of Objects and JSON in CompSci classroom
-compsci.logIt();
-// enable sharing of data across jupyter cells
-$('#jsonText').text(compsci.json);  // posts/embeds/writes compsci.json to HTML DOM element called jsonText
+const playlist = constructPlaylist();
+playlist.logIt();
+$('#jsonText').text(playlist.getJSON());
 
 </script>
 </div>
@@ -1087,22 +809,20 @@ $('#jsonText').text(compsci.json);  // posts/embeds/writes compsci.json to HTML 
 <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span> <span class="nx">jsonText</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
 
 <span class="c1">// convert JSON text to Object</span>
-<span class="kr">const</span> <span class="nx">classroom</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">jsonText</span><span class="p">).</span><span class="nx">classroom</span><span class="p">;</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">classroom</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">playlist</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">jsonText</span><span class="p">).</span><span class="nx">classroom</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">playlist</span><span class="p">);</span>
 
 <span class="c1">// from classroom object creates rows and columns in HTML table</span>
 <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;&lt;br&gt;Formatted data sample from jsonText &lt;br&gt;&quot;</span><span class="p">);</span>
-<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">classroom</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">row</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;br&gt;&#39;</span><span class="p">);</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">playlist</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;br&gt;&#39;</span><span class="p">);</span>
     <span class="c1">// tr for each row, a new line</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&#39;</span><span class="p">)</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#playlist&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&#39;</span><span class="p">)</span>
     <span class="c1">// td for each column of data</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">classOf</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">role</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#playlist&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#playlist&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
     <span class="c1">// tr to end row</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#playlist&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;/tr&gt;&#39;</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 
@@ -1118,10 +838,10 @@ $('#jsonText').text(compsci.json);  // posts/embeds/writes compsci.json to HTML 
 
 
 
-<div id="8f5f6d34-fb90-48b0-818f-a28569e64a93"></div>
+<div id="120b56a7-2a7c-4dfd-aaf5-ffcab5956f3c"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#8f5f6d34-fb90-48b0-818f-a28569e64a93');
+var element = $('#120b56a7-2a7c-4dfd-aaf5-ffcab5956f3c');
 console.log("Classroom Web Page");
 
 // extract JSON text from HTML page
@@ -1131,22 +851,20 @@ element.append("Raw jsonText element embedded in HTML<br>");
 element.append( jsonText + "<br>");
 
 // convert JSON text to Object
-const classroom = JSON.parse(jsonText).classroom;
-console.log(classroom);
+const playlist = JSON.parse(jsonText).classroom;
+console.log(playlist);
 
 // from classroom object creates rows and columns in HTML table
 element.append("<br>Formatted data sample from jsonText <br>");
-for (var row of classroom) {
-    element.append(row.ghID + " " + row.name + '<br>');
+for (var row of playlist) {
+    element.append(row.artist + " " + row.name + '<br>');
     // tr for each row, a new line
-    $('#classroom').append('<tr>')
+    $('#playlist').append('<tr>')
     // td for each column of data
-    $('#classroom').append('<td>' + row.name + '</td>')
-    $('#classroom').append('<td>' + row.ghID + '</td>')
-    $('#classroom').append('<td>' + row.classOf + '</td>')
-    $('#classroom').append('<td>' + row.role + '</td>')
+    $('#playlist').append('<td>' + row.name + '</td>')
+    $('#playlist').append('<td>' + row.artist + '</td>')
     // tr to end row
-    $('#classroom').append('</tr>');
+    $('#playlist').append('</tr>');
 }
 
 </script>
@@ -1168,50 +886,177 @@ for (var row of classroom) {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="c">&lt;!-- load jQuery and DataTables syle and scripts --&gt;</span>
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css&quot;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">language</span><span class="o">=</span><span class="s">&quot;javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- load jQuery and DataTables styles and scripts --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">table</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskTable&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;table&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:100%&quot;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">thead</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskHead&quot;</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>ID<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Name<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>DOB<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Age<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">tbody</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskBody&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskTable&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;table&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:100%&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>ID<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Title<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Artist<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">tbody</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskBody&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
 
-<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://flask.nighthawkcodingsociety.com/api/users/&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">mode</span><span class="o">:</span> <span class="s1">&#39;cors&#39;</span> <span class="p">})</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;API response failed&#39;</span><span class="p">);</span>
+    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://playourshiny.duckdns.org/songdatabase&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">mode</span><span class="o">:</span> <span class="s1">&#39;cors&#39;</span> <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;API response failed&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="kr">const</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="c1">// Append each row to the table body</span>
+                        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#flaskBody&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">title</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="c1">// Initialize DataTable after adding all rows</span>
+                    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#flaskTable&quot;</span><span class="p">).</span><span class="nx">DataTable</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Error:&#39;</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+                <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Playlist Table<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="nt">table</span> <span class="p">{</span>
+      <span class="k">border-collapse</span><span class="p">:</span> <span class="kc">collapse</span><span class="p">;</span>
+      <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nt">th</span><span class="o">,</span> <span class="nt">td</span> <span class="p">{</span>
+      <span class="k">padding</span><span class="p">:</span> <span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+      <span class="k">text-align</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span>
+      <span class="k">border-bottom</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#ddd</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nt">th</span> <span class="p">{</span>
+      <span class="k">background-color</span><span class="p">:</span> <span class="mh">#f2f2f2</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">table</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;playlistTable&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Name<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Artist<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">tbody</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;playlistBody&quot;</span><span class="p">&gt;</span>
+      <span class="c">&lt;!-- Table rows will be dynamically generated here --&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;jsonText&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Playlist object&quot;</span><span class="p">);</span>
+
+    <span class="kr">class</span> <span class="nx">Song</span> <span class="p">{</span>
+      <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="o">=</span> <span class="nx">artist</span><span class="p">;</span>
       <span class="p">}</span>
-      <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-    <span class="p">})</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="p">{</span>
-      <span class="k">for</span> <span class="p">(</span><span class="kr">const</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-        <span class="c1">// BUG warning/resolution - DataTable requires row to be single append</span>
-        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#flaskBody&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&lt;td&gt;&#39;</span> <span class="o">+</span> 
-            <span class="nx">row</span><span class="p">.</span><span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span> 
-            <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span> 
-            <span class="nx">row</span><span class="p">.</span><span class="nx">dob</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span> 
-            <span class="nx">row</span><span class="p">.</span><span class="nx">age</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+
+      <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">type</span><span class="o">:</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="p">};</span>
+        <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
       <span class="p">}</span>
-      <span class="c1">// BUG warning - Jupyter does not show Datatable controls, works on deployed GitHub pages</span>
-      <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#flaskTable&quot;</span><span class="p">).</span><span class="nx">DataTable</span><span class="p">();</span>
-    <span class="p">})</span>
-    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
-      <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Error:&#39;</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+
+      <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+        <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Song JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+        <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kr">class</span> <span class="nx">Playlist</span> <span class="p">{</span>
+      <span class="nx">constructor</span><span class="p">(</span><span class="nx">songs</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">songs</span> <span class="o">=</span> <span class="nx">songs</span><span class="p">;</span>
+      <span class="p">}</span>
+
+      <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kr">const</span> <span class="nx">songArray</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">songs</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">song</span> <span class="p">=&gt;</span> <span class="nx">song</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
+        <span class="kr">const</span> <span class="nx">jsonString</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span> <span class="nx">playlist</span><span class="o">:</span> <span class="nx">songArray</span> <span class="p">});</span>
+        <span class="k">return</span> <span class="nx">jsonString</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\\+/g</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+      <span class="p">}</span>
+
+      <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+        <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Playlist JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+        <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">function</span> <span class="nx">constructPlaylist</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kr">const</span> <span class="nx">songs</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Shake It Off&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Taylor Swift, Max Martin, Shellback&quot;</span><span class="p">]),</span>
+        <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Getaway Car&quot;</span><span class="p">,</span> <span class="s2">&quot;Taylor Swift, Jack Antonoff&quot;</span><span class="p">),</span>
+        <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Boys Don&#39;t Cry&quot;</span><span class="p">,</span> <span class="s2">&quot;Robert Smith, Lol Tolhurst, Michael Dempsey&quot;</span><span class="p">)</span>
+      <span class="p">];</span>
+
+      <span class="k">return</span> <span class="k">new</span> <span class="nx">Playlist</span><span class="p">(</span><span class="nx">songs</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="kr">const</span> <span class="nx">playlist</span> <span class="o">=</span> <span class="nx">constructPlaylist</span><span class="p">();</span>
+
+    <span class="c1">// Generating the HTML table</span>
+    <span class="kr">const</span> <span class="nx">playlistTable</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#playlistTable&quot;</span><span class="p">);</span>
+    <span class="kr">const</span> <span class="nx">playlistBody</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#playlistBody&quot;</span><span class="p">);</span>
+
+    <span class="nx">playlist</span><span class="p">.</span><span class="nx">songs</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">song</span> <span class="p">=&gt;</span> <span class="p">{</span>
+      <span class="kr">const</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;&lt;tr&gt;&lt;/tr&gt;&quot;</span><span class="p">);</span>
+      <span class="kr">const</span> <span class="nx">nameCell</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;&lt;td&gt;&lt;/td&gt;&quot;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">song</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+      <span class="kr">const</span> <span class="nx">artistCell</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;&lt;td&gt;&lt;/td&gt;&quot;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nb">Array</span><span class="p">.</span><span class="nx">isArray</span><span class="p">(</span><span class="nx">song</span><span class="p">.</span><span class="nx">artist</span><span class="p">)</span> <span class="o">?</span> <span class="nx">song</span><span class="p">.</span><span class="nx">artist</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="p">)</span> <span class="o">:</span> <span class="nx">song</span><span class="p">.</span><span class="nx">artist</span><span class="p">);</span>
+
+      <span class="nx">row</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">nameCell</span><span class="p">);</span>
+      <span class="nx">row</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">artistCell</span><span class="p">);</span>
+      <span class="nx">playlistBody</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">row</span><span class="p">);</span>
     <span class="p">});</span>
-  <span class="p">});</span>
-<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+
+    <span class="c1">// Displaying playlist JSON</span>
+    <span class="kr">const</span> <span class="nx">jsonText</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#jsonText&quot;</span><span class="p">);</span>
+    <span class="nx">jsonText</span><span class="p">.</span><span class="nx">text</span><span class="p">(</span><span class="s2">&quot;Playlist JSON: \n&quot;</span> <span class="o">+</span> <span class="nx">playlist</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
+  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </pre></div>
 
     </div>
@@ -1225,50 +1070,114 @@ for (var row of classroom) {
 
 
 <div class="output_html rendered_html output_subarea ">
+<html>
 <head>
-    <!-- load jQuery and DataTables syle and scripts -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
-    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-</head>
-<table id="flaskTable" class="table" style="width:100%">
-    <thead id="flaskHead">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>DOB</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <tbody id="flaskBody"></tbody>
-</table>
+  <title>Playlist Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
 
-<script>
-  $(document).ready(function() {
-    fetch('https://flask.nighthawkcodingsociety.com/api/users/', { mode: 'cors' })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('API response failed');
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <table id="playlistTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Artist</th>
+      </tr>
+    </thead>
+    <tbody id="playlistBody">
+      <!-- Table rows will be dynamically generated here -->
+    </tbody>
+  </table>
+
+  <div id="jsonText"></div>
+
+  <script>
+    console.log("Playlist object");
+
+    class Song {
+      constructor(name, artist) {
+        this.name = name;
+        this.artist = artist;
       }
-      return response.json();
-    })
-    .then(data => {
-      for (const row of data) {
-        // BUG warning/resolution - DataTable requires row to be single append
-        $('#flaskBody').append('<tr><td>' + 
-            row.id + '</td><td>' + 
-            row.name + '</td><td>' + 
-            row.dob + '</td><td>' + 
-            row.age + '</td></tr>');
+
+      getJSON() {
+        const obj = { type: typeof this, name: this.name, artist: this.artist };
+        const json = JSON.stringify(obj);
+        return json;
       }
-      // BUG warning - Jupyter does not show Datatable controls, works on deployed GitHub pages
-      $("#flaskTable").DataTable();
-    })
-    .catch(error => {
-      console.error('Error:', error);
+
+      logIt() {
+        console.info(this);
+        element.append("Song JSON: <br>");
+        element.append(this.getJSON() + "<br>");
+      }
+    }
+
+    class Playlist {
+      constructor(songs) {
+        this.songs = songs;
+      }
+
+      getJSON() {
+        const songArray = this.songs.map(song => song.getJSON());
+        const jsonString = JSON.stringify({ playlist: songArray });
+        return jsonString.replace(/\\+/g, '');
+      }
+
+      logIt() {
+        console.info(this);
+        element.append("Playlist JSON: <br>");
+        element.append(this.getJSON() + "<br>");
+      }
+    }
+
+    function constructPlaylist() {
+      const songs = [
+        new Song("Shake It Off", ["Taylor Swift, Max Martin, Shellback"]),
+        new Song("Getaway Car", "Taylor Swift, Jack Antonoff"),
+        new Song("Boys Don't Cry", "Robert Smith, Lol Tolhurst, Michael Dempsey")
+      ];
+
+      return new Playlist(songs);
+    }
+
+    const playlist = constructPlaylist();
+
+    // Generating the HTML table
+    const playlistTable = $("#playlistTable");
+    const playlistBody = $("#playlistBody");
+
+    playlist.songs.forEach(song => {
+      const row = $("<tr></tr>");
+      const nameCell = $("<td></td>").text(song.name);
+      const artistCell = $("<td></td>").text(Array.isArray(song.artist) ? song.artist.join(", ") : song.artist);
+
+      row.append(nameCell);
+      row.append(artistCell);
+      playlistBody.append(row);
     });
-  });
-</script>
+
+    // Displaying playlist JSON
+    const jsonText = $("#jsonText");
+    jsonText.text("Playlist JSON: \n" + playlist.getJSON());
+  </script>
+</body>
+</html>
 
 </div>
 
@@ -1296,6 +1205,814 @@ for (var row of classroom) {
 </div>
 </div>
 </div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%js</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Playlist object&quot;</span><span class="p">);</span>
+
+<span class="kr">class</span> <span class="nx">Song</span> <span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="o">=</span> <span class="nx">artist</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">type</span><span class="o">:</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">artist</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">artist</span> <span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Song JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kr">class</span> <span class="nx">Playlist</span> <span class="p">{</span>
+  <span class="nx">constructor</span><span class="p">(</span><span class="nx">songs</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">songs</span> <span class="o">=</span> <span class="nx">songs</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nx">getJSON</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">songArray</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">songs</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">song</span> <span class="p">=&gt;</span> <span class="nx">song</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
+    <span class="kr">const</span> <span class="nx">jsonString</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span> <span class="nx">playlist</span><span class="o">:</span> <span class="nx">songArray</span> <span class="p">});</span>
+    <span class="k">return</span> <span class="nx">jsonString</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\\+/g</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="nx">logIt</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Playlist JSON: &lt;br&gt;&quot;</span><span class="p">);</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">constructPlaylist</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">const</span> <span class="nx">songs</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Shake It Off&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Taylor Swift, Max Martin, Shellback&quot;</span><span class="p">]),</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Getaway Car&quot;</span><span class="p">,</span> <span class="s2">&quot;Taylor Swift, Jack Antonoff&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Song</span><span class="p">(</span><span class="s2">&quot;Boys Don&#39;t Cry&quot;</span><span class="p">,</span> <span class="s2">&quot;Robert Smith, Lol Tolhurst, Michael Dempsey&quot;</span><span class="p">)</span>
+  <span class="p">];</span>
+
+  <span class="k">return</span> <span class="k">new</span> <span class="nx">Playlist</span><span class="p">(</span><span class="nx">songs</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kr">const</span> <span class="nx">playlist</span> <span class="o">=</span> <span class="nx">constructPlaylist</span><span class="p">();</span>
+<span class="nx">playlist</span><span class="p">.</span><span class="nx">logIt</span><span class="p">();</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#jsonText&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">playlist</span><span class="p">.</span><span class="nx">getJSON</span><span class="p">());</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+
+<div id="44d18f92-c3ae-4d97-a1d6-05ee1b9bf210"></div>
+<div class="output_subarea output_javascript ">
+<script type="text/javascript">
+var element = $('#44d18f92-c3ae-4d97-a1d6-05ee1b9bf210');
+console.log("Playlist object");
+
+class Song {
+  constructor(name, artist) {
+    this.name = name;
+    this.artist = artist;
+  }
+
+  getJSON() {
+    const obj = { type: typeof this, name: this.name, artist: this.artist };
+    const json = JSON.stringify(obj);
+    return json;
+  }
+
+  logIt() {
+    console.info(this);
+    element.append("Song JSON: <br>");
+    element.append(this.getJSON() + "<br>");
+  }
+}
+
+class Playlist {
+  constructor(songs) {
+    this.songs = songs;
+  }
+
+  getJSON() {
+    const songArray = this.songs.map(song => song.getJSON());
+    const jsonString = JSON.stringify({ playlist: songArray });
+    return jsonString.replace(/\\+/g, '');
+  }
+
+  logIt() {
+    console.info(this);
+    element.append("Playlist JSON: <br>");
+    element.append(this.getJSON() + "<br>");
+  }
+}
+
+function constructPlaylist() {
+  const songs = [
+    new Song("Shake It Off", ["Taylor Swift, Max Martin, Shellback"]),
+    new Song("Getaway Car", "Taylor Swift, Jack Antonoff"),
+    new Song("Boys Don't Cry", "Robert Smith, Lol Tolhurst, Michael Dempsey")
+  ];
+
+  return new Playlist(songs);
+}
+
+const playlist = constructPlaylist();
+playlist.logIt();
+$('#jsonText').text(playlist.getJSON());
+
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%js</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Classroom Web Page&quot;</span><span class="p">);</span>
+
+<span class="c1">// extract JSON text from HTML page</span>
+<span class="kr">const</span> <span class="nx">jsonText</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;jsonText&quot;</span><span class="p">).</span><span class="nx">innerHTML</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">jsonText</span><span class="p">);</span>
+<span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;Raw jsonText element embedded in HTML&lt;br&gt;&quot;</span><span class="p">);</span>
+<span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span> <span class="nx">jsonText</span> <span class="o">+</span> <span class="s2">&quot;&lt;br&gt;&quot;</span><span class="p">);</span>
+
+<span class="c1">// convert JSON text to Object</span>
+<span class="kr">const</span> <span class="nx">playlist</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">jsonText</span><span class="p">).</span><span class="nx">playlist</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">playlist</span><span class="p">);</span>
+
+<span class="c1">// from classroom object creates rows and columns in HTML table</span>
+<span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;&lt;br&gt;Formatted data sample from jsonText &lt;br&gt;&quot;</span><span class="p">);</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">row</span> <span class="k">of</span> <span class="nx">playlist</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;br&gt;&#39;</span><span class="p">);</span>
+    <span class="c1">// tr for each row, a new line</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&#39;</span><span class="p">)</span>
+    <span class="c1">// td for each column of data</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;td&gt;&#39;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&#39;</span><span class="p">)</span>
+    <span class="c1">// tr to end row</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#classroom&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+
+<div id="fbaffc75-9a09-4dd0-bd28-72cd58c130a2"></div>
+<div class="output_subarea output_javascript ">
+<script type="text/javascript">
+var element = $('#fbaffc75-9a09-4dd0-bd28-72cd58c130a2');
+console.log("Classroom Web Page");
+
+// extract JSON text from HTML page
+const jsonText = document.getElementById("jsonText").innerHTML;
+console.log(jsonText);
+element.append("Raw jsonText element embedded in HTML<br>");
+element.append( jsonText + "<br>");
+
+// convert JSON text to Object
+const playlist = JSON.parse(jsonText).playlist;
+console.log(playlist);
+
+// from classroom object creates rows and columns in HTML table
+element.append("<br>Formatted data sample from jsonText <br>");
+for (var row of playlist) {
+    element.append(row.name + " " + row.artist + '<br>');
+    // tr for each row, a new line
+    $('#classroom').append('<tr>')
+    // td for each column of data
+    $('#classroom').append('<td>' + row.name + '</td>')
+    $('#classroom').append('<td>' + row.artist + '</td>')
+    // tr to end row
+    $('#classroom').append('</tr>');
+}
+
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- load jQuery and DataTables styles and scripts --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskTable&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;table&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:100%&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>ID<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Title<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Artist<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">tbody</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskBody&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://playourshiny.duckdns.org/songdatabase&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">mode</span><span class="o">:</span> <span class="s1">&#39;cors&#39;</span> <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;API response failed&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mf">20</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Iterate only for the first 20 rows</span>
+                        <span class="kr">const</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">row</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="k">break</span><span class="p">;</span> <span class="c1">// Stop the loop if there are fewer than 20 rows</span>
+                        <span class="p">}</span>
+                        <span class="c1">// Append each row to the table body</span>
+                        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#flaskBody&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">title</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="c1">// Initialize DataTable after adding all rows</span>
+                    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#flaskTable&quot;</span><span class="p">).</span><span class="nx">DataTable</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Error:&#39;</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+                <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<html>
+<head>
+    <!-- load jQuery and DataTables styles and scripts -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <table id="flaskTable" class="table" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Artist</th>
+            </tr>
+        </thead>
+        <tbody id="flaskBody"></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            fetch('https://playourshiny.duckdns.org/songdatabase', { mode: 'cors' })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('API response failed');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    for (let i = 0; i < 20; i++) { // Iterate only for the first 20 rows
+                        const row = data[i];
+                        if (!row) {
+                            break; // Stop the loop if there are fewer than 20 rows
+                        }
+                        // Append each row to the table body
+                        $('#flaskBody').append('<tr><td>' +
+                            row.id + '</td><td>' +
+                            row.title + '</td><td>' +
+                            row.artist + '</td></tr>');
+                    }
+                    // Initialize DataTable after adding all rows
+                    $("#flaskTable").DataTable();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%js</span>
+<span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nx">form</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;uinput&quot;</span> <span class="nx">action</span><span class="o">=</span><span class="s2">&quot;#&quot;</span><span class="o">&gt;</span>
+  <span class="nx">Enter</span> <span class="nx">the</span> <span class="nx">artist</span> <span class="nx">you</span> <span class="nx">want</span> <span class="nx">to</span> <span class="nx">find</span><span class="o">:</span> <span class="o">&lt;</span><span class="nx">input</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="nx">name</span><span class="o">=</span><span class="s2">&quot;artist&quot;</span>
+  <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;artist&quot;</span><span class="o">&gt;&lt;</span><span class="nx">br</span><span class="o">&gt;</span>
+  <span class="nx">Enter</span> <span class="nx">the</span> <span class="nx">song</span><span class="o">:</span> <span class="o">&lt;</span><span class="nx">input</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="nx">name</span><span class="o">=</span><span class="s2">&quot;song&quot;</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;song&quot;</span><span class="o">&gt;&lt;</span><span class="nx">br</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">input</span> <span class="nx">type</span><span class="o">=</span><span class="nx">button</span> <span class="nx">onclick</span><span class="o">=</span><span class="s2">&quot;songCheck()&quot;</span> <span class="nx">value</span><span class="o">=</span><span class="s2">&quot;Submit&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="err">/form&gt;</span>
+<span class="o">&lt;</span><span class="err">/body&gt;</span>
+
+<span class="o">&lt;</span><span class="nx">p</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;out&quot;</span><span class="o">&gt;&lt;</span><span class="err">/p&gt;</span>
+
+<span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">Songs</span><span class="o">!&lt;</span><span class="err">/p&gt;</span>
+
+<span class="o">&lt;</span><span class="nx">table</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">thead</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">th</span><span class="o">&gt;</span><span class="nx">Song</span><span class="o">&lt;</span><span class="err">/th&gt;</span>
+    <span class="o">&lt;</span><span class="nx">th</span><span class="o">&gt;</span><span class="nx">Artists</span><span class="o">&lt;</span><span class="err">/th&gt;</span>
+  <span class="o">&lt;</span><span class="err">/tr&gt;</span>
+  <span class="o">&lt;</span><span class="err">/thead&gt;</span>
+  <span class="o">&lt;</span><span class="nx">tbody</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;results&quot;</span><span class="o">&gt;</span>
+    <span class="c">&lt;!--</span> <span class="nx">javascript</span> <span class="nx">generated</span> <span class="nx">data</span> <span class="o">--&gt;</span>
+  <span class="o">&lt;</span><span class="err">/tbody&gt;</span>
+<span class="o">&lt;</span><span class="err">/table&gt;</span>
+
+
+
+<span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+<span class="c1">//sets variables and connects userinput through id</span>
+<span class="kr">const</span> <span class="nx">table</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;results&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">songIn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;song&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">artistIn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;artist&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">outputElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#out&#39;</span><span class="p">);</span>
+
+<span class="c1">//creates function, which is activated by user clicking submit</span>
+<span class="kd">function</span> <span class="nx">songCheck</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="c1">//changes user input to all lowercase (var allows for redefinition unlike const)</span>
+    <span class="kd">var</span> <span class="nx">artistl</span> <span class="o">=</span> <span class="nx">artistIn</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+    <span class="kd">var</span> <span class="nx">songl</span> <span class="o">=</span> <span class="nx">songIn</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+
+    <span class="c1">//loops through rows in entire database table</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kr">const</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+
+        <span class="c1">//loops through all cells in the table</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">j</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">row</span><span class="p">.</span><span class="nx">cells</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kr">const</span> <span class="nx">cell</span> <span class="o">=</span> <span class="nx">row</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">j</span><span class="p">];</span>
+
+            <span class="c1">//determines where the product is in the table</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">cell</span><span class="p">.</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">includes</span><span class="p">(</span><span class="nx">songl</span><span class="p">))</span> <span class="p">{</span>
+                <span class="c1">//outputs where product is present in console (for error management)</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`song found in row </span><span class="si">${</span><span class="nx">i</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+                <span class="kd">var</span> <span class="nx">rowIndex</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>
+                <span class="kd">var</span> <span class="nx">prodrow</span> <span class="o">=</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">[</span><span class="nx">rowIndex</span><span class="p">];</span>
+                <span class="c1">//defines row and column of product, so it can be looped through to find string of allergy</span>
+                <span class="kd">var</span> <span class="nx">specrow</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="sb">`#results tr:nth-child(</span><span class="si">${</span><span class="nx">i</span><span class="o">+</span><span class="mf">1</span><span class="si">}</span><span class="sb">)`</span><span class="p">);</span>
+                <span class="kd">var</span> <span class="nx">speccells</span> <span class="o">=</span> <span class="nx">specrow</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s2">&quot;td&quot;</span><span class="p">);</span>
+
+                <span class="c1">//loop through specific row and column</span>
+                <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">k</span> <span class="o">=</span> <span class="mf">1</span><span class="p">;</span> <span class="nx">k</span> <span class="o">&lt;</span> <span class="nx">speccells</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">k</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="kr">const</span> <span class="nx">prodcell</span> <span class="o">=</span> <span class="nx">prodrow</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">k</span><span class="p">];</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">speccells</span><span class="p">[</span><span class="nx">k</span><span class="p">].</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">artistl</span><span class="p">);</span>
+                    <span class="c1">//if this cell includes string inputted by user, output of where safe or not is returned in html</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="nx">speccells</span><span class="p">[</span><span class="nx">k</span><span class="p">].</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">includes</span><span class="p">(</span><span class="nx">artistl</span><span class="p">))</span> <span class="p">{</span>
+                        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This song contains the artist you are looking for!&#39;</span><span class="p">);</span>
+                        <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;This song contains the artist you are looking for!&#39;</span><span class="p">;</span>
+                        <span class="k">return</span><span class="p">;</span>
+                    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This song does not contains the artist you are looking for:(&#39;</span><span class="p">);</span>
+                        <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;This song does not contains the artist you are looking for:(&#39;</span><span class="p">;</span>
+                        <span class="k">return</span><span class="p">;</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="c1">//will inform user if product is not in table/database yet</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Song is not in our database. Check spelling, or enter different song.&#39;</span><span class="p">);</span>
+                <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;Song is not in our database. Check spelling, or enter different song.&#39;</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+            
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+
+<div id="a87536f9-49f6-495a-901b-a866f5a354b1"></div>
+<div class="output_subarea output_javascript ">
+<script type="text/javascript">
+var element = $('#a87536f9-49f6-495a-901b-a866f5a354b1');
+<html>
+<body>
+<form id="uinput" action="#">
+  Enter the artist you want to find: <input type="text" name="artist"
+  id="artist"><br>
+  Enter the song: <input type="text" name="song" id="song"><br>
+  <input type=button onclick="songCheck()" value="Submit">
+</form>
+</body>
+
+<p id="out"></p>
+
+<p>Songs!</p>
+
+<table>
+  <thead>
+  <tr>
+    <th>Song</th>
+    <th>Artists</th>
+  </tr>
+  </thead>
+  <tbody id="results">
+    <!-- javascript generated data -->
+  </tbody>
+</table>
+
+
+
+<script>
+//sets variables and connects userinput through id
+const table = document.getElementById('results');
+const songIn = document.getElementById('song');
+const artistIn = document.getElementById('artist');
+const outputElement = document.querySelector('#out');
+
+//creates function, which is activated by user clicking submit
+function songCheck() {
+
+    //changes user input to all lowercase (var allows for redefinition unlike const)
+    var artistl = artistIn.value.toLowerCase();
+    var songl = songIn.value.toLowerCase();
+
+    //loops through rows in entire database table
+    for (var i = 0; i < table.rows.length; i++) {
+        const row = table.rows[i];
+
+        //loops through all cells in the table
+        for (var j = 0; j < row.cells.length; j++) {
+            const cell = row.cells[j];
+
+            //determines where the product is in the table
+            if (cell.innerText.toLowerCase().includes(songl)) {
+                //outputs where product is present in console (for error management)
+                console.log(`song found in row ${i}`);
+                var rowIndex = i;
+                var prodrow = table.rows[rowIndex];
+                //defines row and column of product, so it can be looped through to find string of allergy
+                var specrow = document.querySelector(`#results tr:nth-child(${i+1})`);
+                var speccells = specrow.querySelectorAll("td");
+
+                //loop through specific row and column
+                for (var k = 1; k < speccells.length; k++) {
+                    const prodcell = prodrow.cells[k];
+                    console.log(speccells[k].innerText.toLowerCase());
+                    console.log(artistl);
+                    //if this cell includes string inputted by user, output of where safe or not is returned in html
+                    if (speccells[k].innerText.toLowerCase().includes(artistl)) {
+                        console.log('This song contains the artist you are looking for!');
+                        outputElement.textContent = 'This song contains the artist you are looking for!';
+                        return;
+                    } else {
+                        console.log('This song does not contains the artist you are looking for:(');
+                        outputElement.textContent = 'This song does not contains the artist you are looking for:(';
+                        return;
+                    }
+                }
+            //will inform user if product is not in table/database yet
+            } else {
+                console.log('Song is not in our database. Check spelling, or enter different song.');
+                outputElement.textContent = 'Song is not in our database. Check spelling, or enter different song.';
+            }
+        }
+    }
+}
+            
+</script>
+
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- load jQuery and DataTables styles and scripts --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;song&quot;</span><span class="p">&gt;</span>Enter the song:<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;song&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;artist&quot;</span><span class="p">&gt;</span>Enter the artist you want to find:<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;artist&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">button</span> <span class="na">onclick</span><span class="o">=</span><span class="s">&quot;songCheck()&quot;</span><span class="p">&gt;</span>Submit<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;out&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskTable&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;table&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:100%&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>ID<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Title<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Artist<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">tbody</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;flaskBody&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+        <span class="kr">const</span> <span class="nx">table</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;flaskTable&#39;</span><span class="p">);</span>
+        <span class="kr">const</span> <span class="nx">songIn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;song&#39;</span><span class="p">);</span>
+        <span class="kr">const</span> <span class="nx">artistIn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;artist&#39;</span><span class="p">);</span>
+        <span class="kr">const</span> <span class="nx">outputElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;out&#39;</span><span class="p">);</span>
+
+        <span class="kd">function</span> <span class="nx">songCheck</span><span class="p">()</span> <span class="p">{</span>
+            <span class="kr">const</span> <span class="nx">artistl</span> <span class="o">=</span> <span class="nx">artistIn</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+            <span class="kr">const</span> <span class="nx">songl</span> <span class="o">=</span> <span class="nx">songIn</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+
+            <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="kr">const</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+
+                <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">j</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">row</span><span class="p">.</span><span class="nx">cells</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="kr">const</span> <span class="nx">cell</span> <span class="o">=</span> <span class="nx">row</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">j</span><span class="p">];</span>
+
+                    <span class="k">if</span> <span class="p">(</span><span class="nx">cell</span><span class="p">.</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">includes</span><span class="p">(</span><span class="nx">songl</span><span class="p">))</span> <span class="p">{</span>
+                        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Song found in row </span><span class="si">${</span><span class="nx">i</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+                        <span class="kr">const</span> <span class="nx">rowIndex</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>
+                        <span class="kr">const</span> <span class="nx">prodrow</span> <span class="o">=</span> <span class="nx">table</span><span class="p">.</span><span class="nx">rows</span><span class="p">[</span><span class="nx">rowIndex</span><span class="p">];</span>
+                        <span class="kr">const</span> <span class="nx">specrow</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="sb">`#flaskTable tr:nth-child(</span><span class="si">${</span><span class="nx">i</span><span class="o">+</span><span class="mf">1</span><span class="si">}</span><span class="sb">)`</span><span class="p">);</span>
+                        <span class="kr">const</span> <span class="nx">speccells</span> <span class="o">=</span> <span class="nx">specrow</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s2">&quot;td&quot;</span><span class="p">);</span>
+
+                        <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">k</span> <span class="o">=</span> <span class="mf">1</span><span class="p">;</span> <span class="nx">k</span> <span class="o">&lt;</span> <span class="nx">speccells</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">k</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="kr">const</span> <span class="nx">prodcell</span> <span class="o">=</span> <span class="nx">prodrow</span><span class="p">.</span><span class="nx">cells</span><span class="p">[</span><span class="nx">k</span><span class="p">];</span>
+                            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">speccells</span><span class="p">[</span><span class="nx">k</span><span class="p">].</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span>
+                            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">artistl</span><span class="p">);</span>
+
+                            <span class="k">if</span> <span class="p">(</span><span class="nx">speccells</span><span class="p">[</span><span class="nx">k</span><span class="p">].</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">includes</span><span class="p">(</span><span class="nx">artistl</span><span class="p">))</span> <span class="p">{</span>
+                                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This song contains the artist you are looking for!&#39;</span><span class="p">);</span>
+                                <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;This song contains the artist you are looking for!&#39;</span><span class="p">;</span>
+                                <span class="k">return</span><span class="p">;</span>
+                            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This song does not contain the artist you are looking for:(&#39;</span><span class="p">);</span>
+                                <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;This song does not contain the artist you are looking for:(&#39;</span><span class="p">;</span>
+                                <span class="k">return</span><span class="p">;</span>
+                            <span class="p">}</span>
+                        <span class="p">}</span>
+                    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Song is not in our database. Check spelling or enter a different song.&#39;</span><span class="p">);</span>
+                        <span class="nx">outputElement</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="s1">&#39;Song is not in our database. Check spelling or enter a different song.&#39;</span><span class="p">;</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://playourshiny.duckdns.org/songdatabase&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">mode</span><span class="o">:</span> <span class="s1">&#39;cors&#39;</span> <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;API response failed&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mf">20</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="kr">const</span> <span class="nx">row</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">row</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="k">break</span><span class="p">;</span>
+                        <span class="p">}</span>
+                        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#flaskBody&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;&lt;tr&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">title</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;td&gt;&#39;</span> <span class="o">+</span>
+                            <span class="nx">row</span><span class="p">.</span><span class="nx">artist</span> <span class="o">+</span> <span class="s1">&#39;&lt;/td&gt;&lt;/tr&gt;&#39;</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#flaskTable&quot;</span><span class="p">).</span><span class="nx">DataTable</span><span class="p">();</span>
+                <span class="p">})</span>
+                <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="s1">&#39;Error:&#39;</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+                <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<html>
+<head>
+    <!-- load jQuery and DataTables styles and scripts -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <div>
+        <label for="song">Enter the song:</label>
+        <input type="text" id="song">
+    </div>
+    <div>
+        <label for="artist">Enter the artist you want to find:</label>
+        <input type="text" id="artist">
+    </div>
+    <button onclick="songCheck()">Submit</button>
+    <p id="out"></p>
+    <table id="flaskTable" class="table" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Artist</th>
+            </tr>
+        </thead>
+        <tbody id="flaskBody"></tbody>
+    </table>
+
+    <script>
+        const table = document.getElementById('flaskTable');
+        const songIn = document.getElementById('song');
+        const artistIn = document.getElementById('artist');
+        const outputElement = document.getElementById('out');
+
+        function songCheck() {
+            const artistl = artistIn.value.toLowerCase();
+            const songl = songIn.value.toLowerCase();
+
+            for (let i = 0; i < table.rows.length; i++) {
+                const row = table.rows[i];
+
+                for (let j = 0; j < row.cells.length; j++) {
+                    const cell = row.cells[j];
+
+                    if (cell.innerText.toLowerCase().includes(songl)) {
+                        console.log(`Song found in row ${i}`);
+                        const rowIndex = i;
+                        const prodrow = table.rows[rowIndex];
+                        const specrow = document.querySelector(`#flaskTable tr:nth-child(${i+1})`);
+                        const speccells = specrow.querySelectorAll("td");
+
+                        for (let k = 1; k < speccells.length; k++) {
+                            const prodcell = prodrow.cells[k];
+                            console.log(speccells[k].innerText.toLowerCase());
+                            console.log(artistl);
+
+                            if (speccells[k].innerText.toLowerCase().includes(artistl)) {
+                                console.log('This song contains the artist you are looking for!');
+                                outputElement.textContent = 'This song contains the artist you are looking for!';
+                                return;
+                            } else {
+                                console.log('This song does not contain the artist you are looking for:(');
+                                outputElement.textContent = 'This song does not contain the artist you are looking for:(';
+                                return;
+                            }
+                        }
+                    } else {
+                        console.log('Song is not in our database. Check spelling or enter a different song.');
+                        outputElement.textContent = 'Song is not in our database. Check spelling or enter a different song.';
+                    }
+                }
+            }
+        }
+
+        $(document).ready(function() {
+            fetch('https://playourshiny.duckdns.org/songdatabase', { mode: 'cors' })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('API response failed');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    for (let i = 0; i < 20; i++) {
+                        const row = data[i];
+                        if (!row) {
+                            break;
+                        }
+                        $('#flaskBody').append('<tr><td>' +
+                            row.id + '</td><td>' +
+                            row.title + '</td><td>' +
+                            row.artist + '</td></tr>');
+                    }
+                    $("#flaskTable").DataTable();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 
