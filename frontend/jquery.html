@@ -4,24 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Page 2 of 6 for Sanika’s Blog | Sanika’s fastpage for APCSP and other high school organization!</title>
+<title>JQuery Sort | Sanika’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Sanika’s Blog" />
+<meta property="og:title" content="JQuery Sort" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Sanika’s fastpage for APCSP and other high school organization!" />
-<meta property="og:description" content="Sanika’s fastpage for APCSP and other high school organization!" />
-<link rel="canonical" href="https://sanikasha.github.io/superFastPages/page2/" />
-<meta property="og:url" content="https://sanikasha.github.io/superFastPages/page2/" />
+<meta name="description" content="Try simple table with JQuery Sort" />
+<meta property="og:description" content="Try simple table with JQuery Sort" />
+<link rel="canonical" href="https://sanikasha.github.io/superFastPages/frontend/jquery" />
+<meta property="og:url" content="https://sanikasha.github.io/superFastPages/frontend/jquery" />
 <meta property="og:site_name" content="Sanika’s Blog" />
-<meta property="og:image" content="https://sanikasha.github.io/superFastPages/images/logo.png" />
-<meta property="og:type" content="website" />
-<link rel="prev" href="https://sanikasha.github.io/superFastPages/" />
-<link rel="next" href="https://sanikasha.github.io/superFastPages/page3/" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://sanikasha.github.io/superFastPages/images/logo.png" />
-<meta property="twitter:title" content="Sanika’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-01T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="JQuery Sort" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Sanika’s fastpage for APCSP and other high school organization!","headline":"Sanika’s Blog","image":"https://sanikasha.github.io/superFastPages/images/logo.png","url":"https://sanikasha.github.io/superFastPages/page2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-01T00:00:00-05:00","datePublished":"2023-06-01T00:00:00-05:00","description":"Try simple table with JQuery Sort","headline":"JQuery Sort","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanikasha.github.io/superFastPages/frontend/jquery"},"url":"https://sanikasha.github.io/superFastPages/frontend/jquery"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/superFastPages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sanikasha.github.io/superFastPages/feed.xml" title="Sanika's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/superFastPages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,115 +70,135 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p>Welcome to Sanika Shahapurkar’s AP Computer Science Principles fastpage!</p>
+        <head>
+    <!-- JQuery -->
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <style>
+        #flaskTable th:first-child {
+            width: 75px;
+        }
+        #flaskTable td:not(:first-child) {
+          width: 150px;
+        }
+    </style>
+    <button id="insertionSortBtn" class="btn btn-primary">Sort</button>
+</head>
 
-<p><img src="/superFastPages/images1/sanikafastpagehome.jpg" alt="" /></p>
+<table id="flaskTable" class="table table-striped nowrap" style="width:100%">
+    <thead id="flaskHead">
+        <tr>
+            <th>acous</th>
+            <th>artist</th>
+            <th>bpm</th>
+            <th>dance</th>
+            <th>duration</th>
+            <th>energy</th>
+            <th>id</th>
+            <th>live</th>
+            <th>loud</th>
+            <th>popular</th>
+            <th>speech</th>
+            <th>title</th>
+            <th>genre</th>
+            <th>valence</th>
+            <th>year</th>
+        </tr>
+    </thead>
+    <tbody id="flaskBody"></tbody>
+</table>
 
-<h1 id="posts">Posts</h1>
+<script>
+  //  insertion sort function in JS converted from my past python version
+  function insertionSort(list) {
+  var n = list.length;
+  for (var i = 1; i < n; i++) {
+    var key = list[i];
+    var j = i - 1;
+    while (j >= 0 && compareValues(list[j][0], key[0]) > 0) {
+      list[j + 1] = list[j];
+      j = j - 1;
+    }
+    list[j + 1] = key;
+  }
+  return list;
+}
+
+// this function's purpose is to compare string values; otherwise they just show up as numbers when insertion sort is run
+function compareValues(a, b) { 
+  if (typeof a === 'string' && typeof b === 'string') {
+    return a.localeCompare(b, 'en', { numeric: true });
+  }
+  return a - b;
+}
 
 
 
-  
+  $(document).ready(function() {
+    fetch('https://playourshiny.duckdns.org/songdatabase', { mode: 'cors' })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('API response failed');
+        }
+        return response.json();
+      })
+      .then(data => {
+        for (const row of data) {
+          $('#flaskBody').append('<tr><td>' +
+            row.acousticness + '</td><td>' +
+            row.artist + '</td><td>' +
+            row.bpm + '</td><td>' +
+            row.danceability + '</td><td>' +
+            row.duration + '</td><td>' +
+            row.energy + '</td><td>' +
+            row.id + '</td><td>' +
+            row.liveness + '</td><td>' +
+            row.loudness + '</td><td>' +
+            row.popularity + '</td><td>' +
+            row.speechiness + '</td><td>' +
+            row.title + '</td><td>' +
+            row.top_genre + '</td><td>' +
+            row.valence + '</td><td>' +
+            row.year + '</td></tr>');
+        }
 
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
+        // Insertion sort function for table
+        $('#insertionSortBtn').on('click', function() {
+          // Retrieve table data
+          var table = $('#flaskTable').DataTable();
+          var tableData = table
+            .columns()
+            .data()
+            .toArray();
 
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
+          // Convert table data to a flat array
+          var flatData = tableData.reduce(function(acc, val) {
+            return acc.concat(val);
+          }, []);
 
- 
-  
+          // Perform insertion sort on the flat data array
+          var sortedData = insertionSort(flatData);
 
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/27/SpaceTHacks.html">
-    Space and Time Hacks
-    </a>
-</h3><p class="post-meta">Mar 27, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/27/SpaceTHacks-copy.html">
-    Space and Time Hacks
-    </a>
-</h3><p class="post-meta">Mar 27, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/ap%20exam/2023/03/24/BigIdeas2-copy.html">
-    Big Ideas 2 Corrections
-    </a>
-</h3><p class="post-meta">Mar 24, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/16/MyTable2-4.html">
-    2.4 CPT CRUD Imperative
-    </a>
-</h3><p class="post-meta">Mar 16, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/16/AP-unit2-4b.html">
-    2.4b
-    </a>
-</h3><p class="post-meta">Mar 16, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/13/AP-unit2-4a-copy.html">
-    Unit 2.4a Using Programs with Data, SQLAlchemy
-    </a>
-</h3><p class="post-meta-description">Using Programs with Data is focused on SQL and database actions.  Part A focuses on SQLAlchemy and an OOP programming style,</p><p class="post-meta">Mar 13, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/12/DrawImagePIL.html">
-    2.2, 2.3 Coding Hacks
-    </a>
-</h3><p class="post-meta">Mar 12, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/09/AP-unit2-3.html">
-    Unit 2.3 Extracting Information from Data, Pandas
-    </a>
-</h3><p class="post-meta-description">Data connections, trends, and correlation.  Pandas is introduced as it could be valuable for PBL, data validation, as well as understanding College Board Topics.</p><p class="post-meta">Mar 9, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/ap%20exam/2023/03/07/T2FinalCorrections.html">
-    MC 3, Tri 2 CB Final Corrections
-    </a>
-</h3><p class="post-meta">Mar 7, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/03/07/AP-unit2-2.html">
-    Unit 2.2 Data Compression, Images
-    </a>
-</h3><p class="post-meta-description">Lab will perform alterations on images, manipulate RGB values, and reduce the number of pixels.  College Board requires you to learn about Lossy and Lossless compression.</p><p class="post-meta">Mar 7, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/create%20performance%20task/2023/02/27/ptgradeupdate.html">
-    Performance Task Scoring
-    </a>
-</h3><p class="post-meta">Feb 27, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/create%20performance%20task/2023/02/26/natm.html">
-    Night at the Museum Trimester 2
-    </a>
-</h3><p class="post-meta">Feb 26, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/lessons/2023/02/13/Lesson556.html">
-    5.5 and 5.6 Lesson Questions
-    </a>
-</h3><p class="post-meta">Feb 13, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/create%20performance%20task/2023/02/01/534lesson.html">
-    5.3 and 5.4 Questions Blog
-    </a>
-</h3><p class="post-meta">Feb 1, 2023</p>
-</li><li><h3>
-    <a class="post-link" href="/superFastPages/2023/01/30/ProjectApproval.html">
-    Projectapproval
-    </a>
-</h3><p class="post-meta">Jan 30, 2023</p>
-</li></ul>
+          // Update table with sorted data
+          var sortedTableData = [];
+          var numColumns = tableData.length;
+          for (var i = 0; i < sortedData.length; i += numColumns) {
+            sortedTableData.push(sortedData.slice(i, i + numColumns));
+          }
+          table.clear().rows.add(sortedTableData).draw();
+        });
 
-    
-      <div class="pager">
-        <ul class="pagination">
-          <li><a href="/superFastPages/" class="previous-page">1</a></li>
-          <li><div class="current-page">2</div></li>
-          <li><a href="/superFastPages/page3/" class="next-page">3</a></li>
-        </ul>
-      </div></div>
+        $('#flaskTable').DataTable();
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  });
+</script>
+
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/superFastPages/"></data>
